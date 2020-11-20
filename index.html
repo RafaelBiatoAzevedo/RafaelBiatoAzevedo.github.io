@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <title>Portifólio Rafael Azevedo</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
     <style>
+      *{
+        margin: 0;
+      }
       body {
-        background-color: rgba(14, 3, 116, 0.897);
+        background-color: gray;
         color: white;
       }
       #forma {
@@ -16,19 +19,19 @@
       }
 
       a {
-        color: grey;
+        color: black;
         font-size: 30px;
         font-weight: bold;
       }
       h1 {
         color: black;
-        font-weight: bold;
+        font-weight: 700;
         font-size: 60px;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Playfair Display', 'Times New Roman';
       }
       h3 {
-        color: red;
-        font-size: 25px;
+        color: black;
+        font-size: 35px;
         font-style: italic;
       }
       #insta {
@@ -38,35 +41,94 @@
         color: blue;
       }
       .text {
-        font-size: 20px;
+        font-size: 30px;
       }
+      #header{
+        background-image: url("imagens/header.jpg");
+        background-size: 100% 120%;
+      }
+      #footer{
+        color: black;
+        font-weight: bold;
+        text-align: center;
+      }
+      #header-content{
+        text-align: right;
+        margin-right: 40px;
+      }
+      #contact{
+        background-image: url(imagens/contatos.jpg);
+        width: 100%;
+        height: 300px;
+        background-size: 100% 100%;
+      }
+      #about{
+        text-align: center;
+      }
+      .nickname{
+        font-style: italic;
+        font-weight: bold;
+      }
+      #insta-link{
+        margin-left: 400px;
+        position: relative;
+        float: left;
+      }
+      #linke-link{
+        position: relative;
+        float: left;
+      }
+        
     </style>
   </head>
+
+
  <body>
-    <p><a href="#foto">Fotos</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="#desc" target="_blanc">Sobre</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="#hab">Habilidades</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="#cont">Contato</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="#insta">Social<br><br></a></p>
-    <img id="foto" src="imagens/FotoPerfil.jpeg" alt="Foto Rafael Azevedo" width="340px">
-    <h1>Rafael Biato de Azevedo</h1>
-    <h3 id="forma" > <em> Estudante de Desenvolvimento Web<br>Full Stack na Trybe </em> </h3>
-    <h3 id="cont"><br>Contato<br></h3>
-    <p class="text">Email - rafaelazevedo321@gmail.com<br>Celular - (19) 992476983<br></p>
-    <h3><br>Sobre</h3>
-    <p id="desc" class="text">Podem me chamar de Rafa ou Azevedo<br>Brasileiro nascido em Batatais-SP<br>Moro em Mogi-Guaçu-SP<br>Gamer profissional, amo todos os tipos de jogos</p>
-    <h3 id="hab" ><br>Habilidaes</h3>
-    <ul class="text">
-        <li>Bom raciocínio lógico</li>
-        <li>Sou Autodidata</li>
-        <li>Gosto de resolver problemas</li>
-        <li>Gosto de Aprender</li>
-        <li>Sou Organizado</li>
-    </ul><br>
-    <img src="imagens/logo_insta.png" alt="Logotipo Instagram" width="25px">
-    <a id="insta" href="https://www.instagram.com/rafael_azevedo_55/?hl=pt-br" target="_blank"><em>Instagram</em><br><br></a>
-    <img src="imagens/logo_linke.png" alt="Logotipo Linkedin" width="23px">
-    <a id="linke" href="https://www.linkedin.com/in/rafael-azevedo-530889195/" target="_blank">Linkedin<br><br></a>
-    <center><p style="background-color: gray; color: black; font-weight: bold;">Azevedo's Corporation @ 2020 - Mogi-Guaçu-SP </p></center>
+
+   <div id="header">
+     <div id="header-content">
+        <p><a href="#foto">Fotos</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#desc" target="_blanc">Sobre</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#hab">Habilidades</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#cont">Contato</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#insta">Social<br><br></a></p>
+        <img id="foto" src="imagens/FotoPerfil.jpeg" alt="Foto Rafael Azevedo" width="300px" style="border-radius: 300px";>
+        <h1>Rafael Biato de Azevedo</h1>
+        <h3 id="forma" > <em> Estudante de Desenvolvimento Web<br>Full Stack na Trybe </em> </h3>
+      </div> 
+   </div>
+
+   <div id="about">
+      <h3><br>Sobre<br></h3>
+      <p id="desc" class="text">Podem me chamar de <span class="nickname">Rafa</span> ou <span class="nickname">Azevedo</span><br>Brasileiro nascido em Batatais-SP<br>Moro em Mogi-Guaçu-SP<br>Gamer profissional, amo todos os tipos de jogos</p>
+      <h3 id="hab" ><br><br>Habilidades</h3>
+      <div id="list_hab">
+          <ul class="text">
+            <li>Sou Autodidata</li>
+            <li>Sou Organizado</li>
+            <li>Gosto de Aprender</li>
+            <li>Bom raciocínio lógico</li>
+            <li>Gosto de resolver problemas</li>
+          </ul><br>
+      </div>
+      <div id="insta-link">
+          <img src="imagens/logo_insta.png" alt="Logotipo Instagram" width="25px">
+          <a id="insta" href="https://www.instagram.com/rafael_azevedo_55/?hl=pt-br" target="_blank"><em>Instagram</em><br><br></a>
+      </div>
+      
+      <div id="Linke-link">
+          <img src="imagens/logo_linke.png" alt="Logotipo Linkedin" width="23px">
+          <a id="linke" href="https://www.linkedin.com/in/rafael-azevedo-530889195/" target="_blank">Linkedin<br><br></a>
+      </div>
+   </div>
+
+   
+    
+
+   <div id="contact">
+      <p class="text">@ - rafaelazevedo321@gmail.com<br>Cel - (19) 992476983<br></p>
+      <p id="footer">Azevedo's Corporation @ 2020 - Mogi-Guaçu-SP </p>
+   </div>
+
   </body>
 </html>
