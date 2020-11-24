@@ -39,10 +39,17 @@
     background-image: url("imagens/header.jpg");
     background-size: 100% 120%;
   }
-  #footer{
+  #name_corp{
     color: black;
     font-weight: bold;
     text-align: center;
+    margin-top: 202px;
+  }
+  #text_footer{
+    font-size: 20px;
+    margin-left: 10px;
+    padding-top: 10px;
+    
   }
   #header-content{
     text-align: right;
@@ -65,7 +72,7 @@
     margin-left: 400px;
     position: relative;
     float: left;
-  }
+   }
   #linke-link{
     position: relative;
     float: left;
@@ -73,4 +80,9 @@
   #list_menu li{
       display: inline;
       margin: 20px;
+  }
+  #list_hab{
+    border: solid;
+    border-color: red;
+    width: 400px;
   }
