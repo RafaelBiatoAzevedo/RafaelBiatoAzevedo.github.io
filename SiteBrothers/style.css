@@ -24,13 +24,13 @@
 
 .title {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 100px;
+  font-size: 80px;
   color: #005952;
 }
 
 .subtitle {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   color: #f79831;
 }
 
@@ -127,7 +127,7 @@
 }
 
 .service-image {
-  width: 400px;
+  width: 300px;
   border-radius: 30px;
 }
 
