@@ -2,27 +2,27 @@ const services = [
   {
     title: 'Pedreiro',
     image: './images/pedreiro.jpg',
-    description: 'Executamos trabalhos em alvenaria, concreto e outros materiais,  utilizando processos e instrumentos pertinentes ao ofício para construir, reformar ou reparar.',
+    description: 'Executamos trabalhos em alvenaria, concreto e outros materiais, para construir, reformar ou reparar',
   },
   {
     title: 'Encanador',
     image: './images/encanador.jpeg',
-    description: 'Montamos, ajustamos, instalamos e reparamos encanamentos, tubulações e outros condutos.',
+    description: 'Montamos, ajustamos, instalamos e reparamos encanamentos, tubulações e outros condutos',
   },
   {
     title: 'Eletricista',
     image: './images/eletricista.jpeg',
-    description: 'Realizamos manutenção preventiva e corretiva, instalalções e reparos em residências.',
+    description: 'Realizamos manutenção preventiva e corretiva, instalalções e reparos em residências',
   },
   {
     title: 'Pintor',
     image: './images/pintor.jpeg',
-    description: 'Preparamos e pintamos as superfícies externas e internas residenciais e outras obras civis, raspando-as, limpando-as, emassando-as e cobrindo-as com uma ou várias camadas de tinta.',
+    description: 'Preparamos e pintamos as superfícies externas e internas residenciais e outras obras civis',
   },
   {
     title: 'Instalações em Geral',
     image: './images/manutencao.jpg',
-    description: 'Manutenção e instalações de roteadores, computadores, notebooks e games.',
+    description: 'Manutenção e instalações de roteadores, computadores, notebooks e games',
   },
 ];
 
