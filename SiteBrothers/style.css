@@ -192,3 +192,20 @@
   color: #15a81c;
 
 }
+
+footer {
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  background-color: #005952;
+  justify-content: center;
+  padding: 30px;
+}
+
+.company {
+  background-color: #005952;
+  color: #f79831;
+}
