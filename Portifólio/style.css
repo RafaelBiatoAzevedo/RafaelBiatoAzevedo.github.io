@@ -14,13 +14,13 @@ strong {
 }
 
 .image-header {
-  width: 40%;
+  width: 28%;
   margin: 10px;
 }
 
 .title {
   width: 60%;
-  font-size: 110%;
+  font-size: 90%;
 }
 
 .picture {
@@ -69,6 +69,10 @@ nav a {
 .center-content {
   width: 40%;
   border: outset;
+}
+
+.text-principal {
+  padding: 30px;
 }
 
 ul {
