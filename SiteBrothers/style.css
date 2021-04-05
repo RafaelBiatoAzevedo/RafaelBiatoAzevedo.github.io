@@ -24,13 +24,13 @@
 
 .title {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 80px;
+  font-size: 60px;
   color: #005952;
 }
 
 .subtitle {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   color: #f79831;
 }
 
@@ -57,7 +57,7 @@
 
 .btn-order {
   font-family: 'Source Sans Pro', sans-serif;
-  width: 295px;
+  width: 235px;
   margin: 10px 0px;
   border: none;
   font-size: 20px;
@@ -77,7 +77,6 @@
 .span-button {
   color: #005952;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 20px;
   font-weight: bold;
 }
 
@@ -97,7 +96,6 @@
 }
 
 .a-nav {
-  text-decoration: none;
   color: #005952;
   cursor: pointer;
 }
@@ -114,7 +112,8 @@
 .service-container {
   display: flex;
   justify-content: space-around;
-  padding: 15px 100px;
+  padding: 15px 300px;
+  margin: 10px;
 
 }
 
@@ -127,12 +126,12 @@
 }
 
 .service-image {
-  width: 300px;
+  width: 270px;
   border-radius: 30px;
 }
 
 .service-title {
-  font-size: 25px;
+  font-size: 27px;
   font-family: 'Source Sans Pro', sans-serif;
   color: #f79831;
   font-weight: bold;
@@ -140,7 +139,7 @@
 
 .service-description {
   padding: 15px;
-  font-size: 15px;
+  font-size: 18px;
   color: #005952;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
@@ -155,7 +154,7 @@
 .contact-msg {
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   color: #f79831;
   font-weight: bold;
   margin-top: 10px;
@@ -164,20 +163,21 @@
 .contact-container {
   display: flex;
   flex-direction: column;
-  width: 380px;
-  height: 550px;
+  width: 350px;
+  height: 450px;
   align-items: center;
   justify-content: space-around;
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Source Sans Pro', sans-serif;
   border: solid;
   border-style: outset;
   border-radius: 20px;
+  margin: 5px;
 }
 
 .contact-image {
-  width: 250px;
-  border-radius: 500px;
+  width: 200px;
+  border-radius: 180px;
 }
 
 .contact-description {
@@ -187,7 +187,7 @@
 }
 
 .contact-cel {
-  font-size: 25px;
+  font-size: 20px;
   color: #15a81c;
 }
 
