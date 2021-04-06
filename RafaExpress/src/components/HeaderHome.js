@@ -12,7 +12,7 @@ class HeaderHome extends React.Component {
   }
   
   render() {
-    const { greeting, inputSearch, saveProducts, saveCategory, saveInput } = this.props;
+    const { greeting, inputSearch, saveProducts, saveCategory, saveInput, counterProducts } = this.props;
     return (
       <div className="header-container">
         <div className="logo-input-container">
@@ -45,7 +45,7 @@ class HeaderHome extends React.Component {
           <Link to="/carrinho">
             <img className="cart-icon" src="cart-icon.png" alt="cart-icon" width="40px"/>
           </Link>
-          <span className="cart-counter">0</span>
+          <span className="cart-counter">{ counterProducts }</span>
         </div>
       </div>
     )
@@ -55,6 +55,7 @@ class HeaderHome extends React.Component {
 const mapStateToProps = (state) => ({
   greeting: state.stateHome.greeting,
   inputSearch: state.stateHome.inputSearch,
+  counterProducts: state.stateCart.products.length,
 });
 
 const mapDispatchToProps = (dispatch) => ({
