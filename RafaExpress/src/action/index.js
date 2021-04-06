@@ -32,5 +32,5 @@ export const categoriesThunk = () => (dispatch) => {
 
 export const getProductsByCategory = (category) => (dispatch) => {
   dispatch(saveCategory(category));
-  requestProducts(category).then((response) => dispatch(saveProducts(response)));
+  requestProducts(category).then((response) => dispatch(saveProducts(response.results)));
 }

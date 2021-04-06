@@ -10,7 +10,7 @@ const INICIAL_STATE = {
 export const stateHome = ( state = INICIAL_STATE, action) => {
   switch (action.type) {
     case SAVE_PRODUCTS:
-      return { ...state, products: [action.products] };
+      return { ...state, products: [...action.products] };
     case SAVE_CATEGORIES:
       return { ...state, categories: [...action.categories] };
     case SAVE_CATEGORY:

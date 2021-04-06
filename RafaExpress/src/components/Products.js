@@ -5,10 +5,9 @@ import Product from './Product';
 class Products extends React.Component {
   render() {
     const { listProducts } = this.props;
-    const { results } = listProducts[0];
     return (
       <div className="products-container">
-        { results.map((product) => <Product product={ product }/>) }
+        { listProducts.map((product) => <Product product={ product }/>) }
       </div>
     )
   }
