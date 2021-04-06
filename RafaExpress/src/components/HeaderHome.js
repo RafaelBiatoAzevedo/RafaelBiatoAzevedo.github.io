@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { saveGreeting } from '../action';
+import { getProductsByName, saveCategory, saveGreeting, saveInput } from '../action';
 import greeting from '../service/greeting';
 import '../styles/headerHome.css';
 
@@ -12,12 +12,30 @@ class HeaderHome extends React.Component {
   }
   
   render() {
-    const { greeting } = this.props;
+    const { greeting, inputSearch, saveProducts, saveCategory, saveInput } = this.props;
     return (
       <div className="header-container">
         <div className="logo-input-container">
-          <img src="logoRafaExpressWhite.png" alt="logo" width="200px"/>
-          <input className="input-search" type="text" placeholder="O que você esta procurando ?"/>
+          <img className="img-logo" onClick={ () => {
+            saveCategory('');
+            saveInput('');
+            saveProducts([]);
+          }} 
+            src="logoRafaExpressWhite.png" 
+            alt="logo" 
+            width="200px"
+          />
+          <input
+            value={ inputSearch }
+            className="input-search"
+            type="text"
+            placeholder="O que você esta procurando ?"
+            onChange={ (evt) => {
+              saveProducts(evt.target.value);
+              saveCategory('');
+              saveInput(evt.target.value);
+            }}
+          />
           <div>
             <span className="header-greeting">{ `${greeting},`}</span>
             <span className="header-user">Rafael</span>
@@ -36,10 +54,14 @@ class HeaderHome extends React.Component {
 
 const mapStateToProps = (state) => ({
   greeting: state.stateHome.greeting,
+  inputSearch: state.stateHome.inputSearch,
 });
 
 const mapDispatchToProps = (dispatch) => ({
   saveGreeting: () => dispatch(saveGreeting(greeting())),
-});
+  saveProducts: (value) => dispatch(getProductsByName(value)),
+  saveCategory: (value) => dispatch(saveCategory(value)),
+  saveInput: (value) => dispatch(saveInput(value)),
+}); 
 
 export default connect(mapStateToProps, mapDispatchToProps)(HeaderHome);

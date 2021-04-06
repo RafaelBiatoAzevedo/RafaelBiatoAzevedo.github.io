@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.img-logo {
+  cursor: pointer;
+}
+
 .header-container {
   align-items: center;
   background-color: #5d20b0;

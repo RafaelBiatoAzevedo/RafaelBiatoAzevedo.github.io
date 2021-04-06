@@ -1,5 +1,5 @@
 import React from 'react';
-import { categoriesThunk, getProductsByCategory } from '../action';
+import { categoriesThunk, getProductsByCategory, saveInput } from '../action';
 import { connect } from 'react-redux';
 import '../styles/navHome.css'
 
@@ -10,11 +10,18 @@ class NavHome extends React.Component {
   }
 
   render() {
-    const { listCategories, saveProducts } = this.props;
+    const { listCategories, saveProducts, category, saveInput } = this.props;
     return (
       <div>
         <nav className="nav-container">
-          <select className="select-category" onChange={ (evt) => saveProducts(evt.target.value) }>
+          <select
+            className="select-category"
+            value={ category }
+            onChange={ (evt) => {
+              saveProducts(evt.target.value);
+              saveInput('');
+            }}
+          >
             <option>Categorias</option>
             { listCategories.map((category) => <option key={ category.id } value={ category.id }>{ category.name }</option>) }
           </select>
@@ -30,11 +37,13 @@ class NavHome extends React.Component {
 
 const mapStatetoProps = (state) => ({
   listCategories: state.stateHome.categories,
+  category: state.stateHome.category,
 });
 
 const mapDispatchToProps = (dispatch) => ({
   saveCategories: () => dispatch(categoriesThunk()),
   saveProducts: (value) => dispatch(getProductsByCategory(value)),
+  saveInput: (value) => dispatch(saveInput(value)),
 });
 
 export default connect(mapStatetoProps, mapDispatchToProps)(NavHome);

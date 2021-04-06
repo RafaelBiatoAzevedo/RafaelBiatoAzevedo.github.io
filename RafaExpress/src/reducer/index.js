@@ -1,6 +1,7 @@
 import { combineReducers } from 'redux';
-import { stateHome } from './stateHome';
+import stateHome from './stateHome';
+import stateCart from './stateCart';
 
-const rootReducer = combineReducers({ stateHome });
+const rootReducer = combineReducers({ stateHome, stateCart });
 
 export default rootReducer;

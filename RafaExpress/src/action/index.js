@@ -1,10 +1,21 @@
-import { requestCategories, requestProducts } from "../service/requestApi";
+import { requestCategories, requestProducts, requestProductsByName } from "../service/requestApi";
 
 export const SAVE_CATEGORIES = 'SAVE_CATEGORIES';
 export const SAVE_GREETING = 'SAVE_GREETING';
 export const SAVE_CATEGORY = 'SAVE_CATEGORY';
 export const SAVE_PRODUCTS = ' SAVE_PRODUCTS';
-export const GET_PRODUCTS = 'GET_PRODUCTS';
+export const SAVE_INPUT = 'SAVE_INPUT';
+export const ADD_PRODUCT_CART = 'ADD_PRODUCT_CART';
+
+export const addProductCart = (product) => ({
+  type: ADD_PRODUCT_CART,
+  product,
+});
+
+export const saveInput = (input) => ({
+  type: SAVE_INPUT,
+  input,
+});
 
 export const saveCategory = (category) => ({
   type: SAVE_CATEGORY,
@@ -33,4 +44,8 @@ export const categoriesThunk = () => (dispatch) => {
 export const getProductsByCategory = (category) => (dispatch) => {
   dispatch(saveCategory(category));
   requestProducts(category).then((response) => dispatch(saveProducts(response.results)));
+}
+
+export const getProductsByName = (name) => (dispatch) => {
+  requestProductsByName(name).then((response) => dispatch(saveProducts(response.results)));
 }

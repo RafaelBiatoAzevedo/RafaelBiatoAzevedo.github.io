@@ -1,20 +1,20 @@
 .products-container {
-  display: flex;
-  justify-content: center;
   background-color: rgb(240, 240, 240);
+  display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding-top: 10px;
 }
 
 .product-container {
-  justify-content: space-between;
-  align-items: flex-start;
+  align-items: flex-start;  
   background-color: white;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  padding: 10px 10px 15px 10px;
+  justify-content: space-between;
   margin: 10px;
+  padding: 10px 10px 15px 10px;
   width: 270px;
 }
 
@@ -23,14 +23,14 @@
 } 
 
 .image-product {
-  height: 130px;
   align-self: center;
+  height: 130px;
 }
 
 .title-product {
-  text-align: center;
   color: #5d20b0;
   font-size: 15px;
+  text-align: center;
 }
 
 .price-product {
@@ -43,11 +43,12 @@
 }
 
 .btn-buy {
+  align-self: center;
   background-color: #5d20b0;
   border-radius: 15px;
   color: white;
+  cursor: pointer;
   font-size: 18px;
   padding: 1px 8px;
-  align-self: center;
   margin: 10px;
 }
