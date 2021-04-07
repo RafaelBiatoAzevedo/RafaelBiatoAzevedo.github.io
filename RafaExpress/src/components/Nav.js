@@ -3,7 +3,7 @@ import { categoriesThunk, getProductsByCategory, saveInput } from '../action';
 import { connect } from 'react-redux';
 import '../styles/navHome.css'
 
-class NavHome extends React.Component {
+class Nav extends React.Component {
   componentDidMount() {
     const { saveCategories } = this.props;
     saveCategories();
@@ -46,4 +46,4 @@ const mapDispatchToProps = (dispatch) => ({
   saveInput: (value) => dispatch(saveInput(value)),
 });
 
-export default connect(mapStatetoProps, mapDispatchToProps)(NavHome);
+export default connect(mapStatetoProps, mapDispatchToProps)(Nav);

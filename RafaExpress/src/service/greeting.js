@@ -1,6 +1,6 @@
 const date = new Date();
 
-const hour = date.getHours;
+const hour = date.getHours();
 
 const greeting = () => {
   if (hour >= 18) return 'Boa Noite';

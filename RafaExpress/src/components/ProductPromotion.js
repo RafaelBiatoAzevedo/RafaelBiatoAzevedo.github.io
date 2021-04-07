@@ -12,7 +12,13 @@ class ProductPromotion extends React.Component {
         <p className="title-product">{ product.title }</p>
         <p className="price-product">{`R$ ${product.price.toFixed(2)}`}</p>
         <p className="parcel-product">{`10x de R$ ${(product.price / 10).toFixed(2)} sem juros no Cartão`}</p>
-        <button onClick={ () => addProductCart(product) } className="btn-buy" type="button">Comprar</button>
+        <button
+          onClick={ () => addProductCart(product) }
+          className="btn-buy" type="button"
+        >
+          Adicionar
+          <img className="img-btn" src="cart-icon.png" alt="cart-icon"/>
+        </button>
       </div>
     );
   }

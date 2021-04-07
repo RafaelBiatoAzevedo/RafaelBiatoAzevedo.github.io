@@ -1,0 +1,17 @@
+.header-details {
+  align-items: center;
+  background-color: #5d20b0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.link-details {
+  align-self: flex-start;
+  color: white;
+  margin: 0px 10px;
+  text-decoration: none;
+}

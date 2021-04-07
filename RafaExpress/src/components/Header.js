@@ -5,7 +5,7 @@ import { getProductsByName, saveCategory, saveGreeting, saveInput } from '../act
 import greeting from '../service/greeting';
 import '../styles/headerHome.css';
 
-class HeaderHome extends React.Component {
+class Header extends React.Component {
   componentDidMount() {
     const { saveGreeting } = this.props;
     saveGreeting();
@@ -65,4 +65,4 @@ const mapDispatchToProps = (dispatch) => ({
   saveInput: (value) => dispatch(saveInput(value)),
 }); 
 
-export default connect(mapStateToProps, mapDispatchToProps)(HeaderHome);
+export default connect(mapStateToProps, mapDispatchToProps)(Header);
