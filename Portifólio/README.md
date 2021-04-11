@@ -1,6 +1,6 @@
 Site Portifólio apresenta meu currículo atualizado.
 
-Criado usando:
+Desenvolvido usando:
 
 - HTML
 - HTML Semantic
