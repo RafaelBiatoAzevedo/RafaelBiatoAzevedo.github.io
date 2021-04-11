@@ -9,6 +9,20 @@
   border-radius: 10px;
 }
 
+.paragraph-logo {
+  font-size: 20px;
+  color: #005952;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 20px;
+}
+
+.logo-description {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  padding: 40px;
+}
+
 .container-header {
   display: flex;
   justify-content: space-between;
@@ -98,6 +112,10 @@
 .a-nav {
   color: #005952;
   cursor: pointer;
+}
+
+.main-container {
+  min-height: 550px;
 }
 
 .service-local {

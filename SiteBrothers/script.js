@@ -168,7 +168,6 @@ const installationGeneral = [
   },
 ];
 
-
 createElement = (obj) => {
   const div = document.createElement('div');
   div.className = 'service-container';
@@ -234,69 +233,59 @@ createContacts = () => {
   professionals.forEach(profi => createElementContacts(profi));
 }
 
-showServices = () => {
+eventsBtn = () => document
+  .querySelectorAll('#btnOrder')
+  .forEach(btn => btn.addEventListener('click', createContacts));
+
+showInMain = (list) => {
   const container = document.querySelector('#containerMain');
   container.innerHTML = '';
-  createServices(services);
+  createServices(list);
   eventsBtn();
 };
 
-showMason = () => {
+showCompany = () => {
   const container = document.querySelector('#containerMain');
   container.innerHTML = '';
-  createServices(mason);
-  eventsBtn();
+  const div = document.createElement('div');
+  div.className = 'logo-description';
+  const h3 = document.createElement('h3');
+  h3.innerText = 'Informações';
+  h3.className='subtitle';
+  const paragraph = document.createElement('p');
+  paragraph.innerText = 'Logo criado em Free Logo Maker. \n'
+    +'"Brothers reparos em geral"'
+    + 'nome fantasia criado pelo desenvolvedor Rafael Biato de Azevedo.\n'
+    + 'Email: rafaelazevedo321@gmail.com';
+  paragraph.className='paragraph-logo';
+  div.appendChild(h3);
+  div.appendChild(paragraph);
+  container.appendChild(div);
 };
 
-showPlumer = () => {
-  const container = document.querySelector('#containerMain');
-  container.innerHTML = '';
-  createServices(plumber);
-  eventsBtn();
-};
-
-showElectrician = () => {
-  const container = document.querySelector('#containerMain');
-  container.innerHTML = '';
-  createServices(electrician);
-  eventsBtn();
-}
-
-showPainter = () => {
-  const container = document.querySelector('#containerMain');
-  container.innerHTML = '';
-  createServices(painter);
-  eventsBtn();
-}
-
-showInstallationGeneral = () => {
-  const container = document.querySelector('#containerMain');
-  container.innerHTML = '';
-  createServices(installationGeneral);
-  eventsBtn();
-}
-
-eventsBtn = () => document.querySelectorAll('#btnOrder').forEach(btn => btn.addEventListener('click', createContacts));
-
-eventBtnHeader = () => document.querySelector('#btnHeader').addEventListener('click', createContacts);
+eventBtnHeader = () => document
+  .querySelector('#btnHeader').addEventListener('click', createContacts);
 
 eventsMenu = () => {
   eventBtnHeader();
+  const logo = document.querySelector('#logoType');
+  logo.addEventListener('click', showCompany);
   const spanServices = document.querySelector('#spanNav');
-  spanServices.addEventListener('click', showServices);
+  spanServices.addEventListener('click', () => showInMain(services));
   const masonServices = document.querySelector('#masonNav');
-  masonServices.addEventListener('click', showMason);
+  masonServices.addEventListener('click', () => showInMain(mason));
   const plumerServices = document.querySelector('#plumerNav');
-  plumerServices.addEventListener('click', showPlumer);
+  plumerServices.addEventListener('click',() => showInMain(plumber));
   const electricianServices = document.querySelector('#electrician');
-  electricianServices.addEventListener('click', showElectrician);
+  electricianServices.addEventListener('click', () => showInMain(electrician));
   const painterServices = document.querySelector('#painter');
-  painterServices.addEventListener('click', showPainter);
+  painterServices.addEventListener('click', () => showInMain(painter));
   const installationGeneralServices = document.querySelector('#instalationGeneral');
-  installationGeneralServices.addEventListener('click', showInstallationGeneral);
+  installationGeneralServices
+    .addEventListener('click', () => showInMain(installationGeneral));
 }
 
 window.onload = () => {
   eventsMenu();
-  showServices();
+  showInMain(services);
 };
