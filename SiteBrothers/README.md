@@ -1,4 +1,6 @@
-Site Brothers criado usando:
+Site Brothers apresenta uma empresa de reparos fictícia.
+
+Desenvolvido usando:
 
 - Html
 - Html Semantic
