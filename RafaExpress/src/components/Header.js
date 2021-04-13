@@ -23,7 +23,6 @@ class Header extends React.Component {
           }} 
             src="logoRafaExpressWhite.png" 
             alt="logo" 
-            width="200px"
           />
           <input
             value={ inputSearch }
@@ -55,7 +54,7 @@ class Header extends React.Component {
 const mapStateToProps = (state) => ({
   greeting: state.stateHome.greeting,
   inputSearch: state.stateHome.inputSearch,
-  counterProducts: state.stateCart.products.length,
+  counterProducts: state.stateCart.productsCart.length,
 });
 
 const mapDispatchToProps = (dispatch) => ({

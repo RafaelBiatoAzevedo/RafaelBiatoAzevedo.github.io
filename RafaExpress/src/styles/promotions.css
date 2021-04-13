@@ -9,10 +9,15 @@
   justify-content: center;
 }
 
+.porcent-products-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 40px ;
+}
+
 .porcent-container {
   display: flex;
   justify-content: center;
-  margin: 0px 30px 0px 30px;
 }
 
 .promotion-box {
@@ -24,11 +29,11 @@
   background-color: #5d20b0;
   justify-content: center;
   align-items: center;
-  border: solid #5d20b0;
   color: white;
   border-radius: 180px;
   width: 270px;
   font-size: 20px;
   cursor: pointer;
-  margin: 19px 19px 0px 19px;
+  margin: 10px 10px 0px 10px;
+  padding: 5px 10px 5px 12px;
 }

@@ -9,14 +9,16 @@ class Promotions extends React.Component {
     return (
       <div className="promotions-container">
         <h2 className="subtitle-promotions">Promoções</h2>
-        <div className="porcent-container"> 
-          <span className="span-porcent">10% de desconto</span>
-          <span className="span-porcent">25% de desconto</span>
-          <span className="span-porcent">45% de desconto</span>
-          <span className="span-porcent">60% de desconto</span>
-        </div>
-        <div className="products-promotions">
-          { promotions.map((product) => <ProductPromotion product={ product } />) }
+        <div className="porcent-products-container">
+          <div className="porcent-container"> 
+            <span className="span-porcent">10% de desconto</span>
+            <span className="span-porcent">25% de desconto</span>
+            <span className="span-porcent">45% de desconto</span>
+            <span className="span-porcent">60% de desconto</span>
+          </div>
+          <div className="products-promotions">
+            { promotions.map((product) => <ProductPromotion product={ product } />) }
+          </div>
         </div>
       </div>
     );

@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux';
-import { addProductCart } from '../action';
+import { addPreCart } from '../action';
 import '../styles/productsHome.css'
 
 class Product extends React.Component {
   render() {
-    const { product, addProductCart } = this.props;
+    const { product, addPreCart } = this.props;
     return (
       <div className="product-container">
         <img className="image-product" src={product.thumbnail} alt="product" />
@@ -17,7 +17,7 @@ class Product extends React.Component {
         </p>
         <Link className="link-btn" to="/detalhes-do-produto">
           <button
-            onClick={ () => addProductCart(product) }
+            onClick={ () => addPreCart(product) }
             className="btn-buy" type="button"
           >
             Adicionar
@@ -30,7 +30,7 @@ class Product extends React.Component {
 }
 
 const mapDispatchToProps = (dispatch) => ({
-  addProductCart: (product) => dispatch(addProductCart(product)),
+  addPreCart: (product) => dispatch(addPreCart(product)),
 });
 
 export default connect(null, mapDispatchToProps)(Product);
