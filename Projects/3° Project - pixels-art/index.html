@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project Art Pixels</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="title" id="title">Palette of Colors</h1>
+            <hr>
+        </header>
+        <main>
+          <section class="section-palette">
+            <fieldset class="fieldset-palette">
+              <legend>Select Color</legend>
+              <div class="color-palette" id="color-palette"></div>
+            </fieldset>
+          </section>
+          <section class="section-size">
+              <label for="board-size">Size Board</label>
+              <input class="input-size" type="number" min="1" max="50" id="board-size" >
+              <button class="button" id="generate-board">Insert</button>
+          </section>
+          <div class="pixel-painel" id="pixel-board">
+            <div class="line-board">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+            <div class="line-board">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+            <div class="line-board">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+            <div class="line-board">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+            <div class="line-board">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+          </div>
+            <div class="button-clear">
+              <button class="button" id="clear-board">Clear</button>
+          </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
