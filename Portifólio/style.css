@@ -77,6 +77,7 @@ strong {
 
 .text-principal {
   padding: 20px;
+  line-height: 25px;
 }
 
 ul {
@@ -95,7 +96,11 @@ li {
 }
 
 .link {
-  margin-right: 50px;
+  margin: 10px 50px 10px 50px;
+}
+
+.link-home-github {
+  margin-left: 150px;
 }
 
 .homeHeader-container {
