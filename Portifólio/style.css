@@ -59,6 +59,10 @@ strong {
 }
 
 .left-content, .right-content {
+  height: 460px;
+}
+
+.left-content, .right-content {
   width: 15%;
   display: flex;
   flex-direction: column;
@@ -111,4 +115,13 @@ li {
 
 .link-project {
   padding: 10px 0px;
+}
+
+.courses-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.course {
+  padding: 10px;
 }

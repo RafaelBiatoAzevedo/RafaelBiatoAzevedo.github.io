@@ -8,7 +8,7 @@ const home = '<div class="homeHeader-container">'
     +'<img src="./imagens/logo-brothers.png" alt="logo-brothers" width="150px"/>'
   +'</a>'
   +'<a class="link-project" href="" target="blank">'
-    +'<img src="./imagens/logoRafaExpressWhite.png" alt="logo-rafaexpress" width="330px"/>'
+    +'<img src="./imagens/logoRafaExpressWhite.png" alt="logo-rafaexpress" width="250px"/>'
   +'</a>'
 +'</div>'
 +'<h3>Projetos na Trybe:</h3>';
@@ -17,7 +17,45 @@ const formation = '<h2>Formação</h2>'
 +'<p class="text-principal"><strong>Trybe</strong><br>Desenvolvimento Web Full Stack 1° Semestre<br>Situação: Cursando</p>'
 +'<p class="text-principal"><strong>Pontifícia Universidade Católica (PUC-Campinas)</strong><br>Análise de Sistemas 7° semestre<br>Situação: trancado desde 2009</p>';
 
+const courses = '<h2>Cursos</h2>'
++'<div class="courses-container">'
+  +'<div class="course">'
+    +'<h4>Desenvolvimento Web (HTML,CSS,JavaScript,React,Redux)</h4>'
+    +'<p>1 ano<br>Cursando</p>'
+  +'</div>'
+  +'<div class="course">'
+    +'<h4>Python</h4>'
+    +'<p>120 horas<br>Concluído em 2020</p>'
+  +'</div>'
+  +'<div class="course">'
+    +'<h4>Linux</h4>'
+    +'<p>40 horas<br>Concluído em 2020</p>'
+  +'</div>'
+  +'<div class="course">'
+    +'<h4>Java</h4>'
+    +'<p>120 horas<br>Concluído em 2018</p>'
+  +'</div>'
+  +'<div class="course">'
+    +'<h4>Inglês</h4>'
+    +'<p>Nível avançado<br>Concluído em 2008</p>'
+  +'</div>'
+  +'<div class="course">'
+    +'<h4>Manutenção, instalação e configuração de computadores</h4>'
+    +'<p>160 horas<br>Concluído em 2004</p>'
+  +'</div>'
+  +'<div class="course">'
+    +'<h4>Senai</h4>'
+    +'<p>600 horas<br>Concluído em 2003</p>'
+  +'</div>'
+  +'<div class="course">'
+    +'<h4>Informática</h4>'
+    +'<p>Nível avançado<br>Concluído em 1998</p>'
+  +'</div>'
++'</div>';
 
+const experiences = '<h2>Experiências Profissionais</h2>'
++'<p class="text-principal"><strong>Restaurante Bandeirantes</strong><br>Av. Bandeirantes 1640, Mogi-Guaçu - SP<br>Cargo: Gerente<br>De: Janeiro/2003 - Até: Maio/2018</p>'
+ 
 const contacts = '<h2>Contato</h2>'
 +'<p class="text-principal">'
   +'<strong>Endereço:</strong> Rua Cleonice Ap. Cruz Thielle, 350 - Jd. Alvorada<br>Cep: 13841-077, Mogi-Guaçu - SP'
@@ -43,8 +81,10 @@ const showInformations = (evt) => {
       mainContainer.innerHTML = formation;
       break;
     case 'spanCourses':
+      mainContainer.innerHTML = courses;
       break;
     case 'spanExperiences':
+      mainContainer.innerHTML = experiences;
       break;
     case 'spanAbout':
       break;
