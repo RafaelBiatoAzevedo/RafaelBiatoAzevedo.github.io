@@ -12,7 +12,7 @@ const home = '<div class="homeHeader-container">'
   +'</a>'
 +'</div>'
 +'<h3>Projetos na Trybe:</h3><br>'
-+'<a class="link-home-github" href="https://github.com/RafaelBiatoAzevedo" target="blank"><img src="./imagens/logo_github.png" alt="logo-gihub" width="70px"/></a>';
++'<a class="link-home-github" href="https://github.com/RafaelBiatoAzevedo/RafaelBiatoAzevedo.github.io/tree/main/Projects" target="blank"><img src="./imagens/logo_github.png" alt="logo-gihub" width="70px"/></a>';
 
 const formation = '<h2>Formação</h2>'
 +'<p class="text-principal"><strong>Trybe</strong><br>Desenvolvimento Web Full Stack 1° Semestre<br>Situação: Cursando</p>'
