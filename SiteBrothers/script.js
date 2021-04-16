@@ -254,7 +254,7 @@ showCompany = () => {
   h3.className='subtitle';
   const paragraph = document.createElement('p');
   paragraph.innerText = 'Logo criado em Free Logo Maker. \n'
-    +'"Brothers reparos em geral"'
+    +'"Brothers reparos em geral" '
     + 'nome fantasia criado pelo desenvolvedor Rafael Biato de Azevedo.\n'
     + 'Email: rafaelazevedo321@gmail.com';
   paragraph.className='paragraph-logo';
