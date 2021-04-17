@@ -18,9 +18,11 @@
 }
 
 .btn {
-  font-size: 15px;
+  font-size: 17px;
   margin: 5px 20px;
-  padding: 5px 7px;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 8px;
 }
 
 .btn-remove {
@@ -59,4 +61,22 @@
 
 .list-asks {
   font-size: 20px;
+}
+
+.btn-clear {
+  background-color: rgb(241, 9, 9);
+}
+
+.btn-add {
+  background-color: blue;
+  color: white;
+}
+
+.btn-save {
+  background-color: rgb(219, 219, 5);
+}
+
+.btn-download {
+  background-color: green;
+  color: white;
 }
