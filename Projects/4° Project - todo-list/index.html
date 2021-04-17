@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">Minha Lista de Tarefas</h1>
+    </header>
+    <main>
+      <div class="container-main">
+        <div class="container-input">
+          <input class="input-todo" type="text" id="texto-tarefa" placeholder="Digite sua tarefa">
+          <button type="button" class="btn" id="criar-tarefa">Adicionar</button>
+          <button type="button" class="btn" id="downloadList">Carregar lista</button>
+        </div>
+        <div class="container-list-directions" id="displayList">
+          <div class="container-directions">
+            <button type="button" class="btn-up" id="mover-cima">&#11014</button>
+            <button type="button" class="btn-remove" id="remover-selecionado">&#10060</button>
+            <button type="button" class="btn-down" id="mover-baixo">&#11015</button>
+          </div>
+          <ol class="list-asks" id="lista-tarefas"></ol>
+        </div>
+        <p>Clique em um item uma vez para selecinar ou duas vezes para marcá-lo como completo</p>
+        <div>
+          <button type="button" class="btn" id="remover-finalizados">Limpar Completos</button>
+          <button type="button" class="btn" id="apaga-tudo">Limpar Lista</button>
+          <button type="button" class="btn" id="salvar-tarefas">Salvar Lista</button>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
