@@ -16,6 +16,10 @@ body {
   font-size: 15px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .link {
   color: black;
   margin-right: 20px;
@@ -34,14 +38,14 @@ body {
 }
 
 .my-picture {
-  margin-top: 100px;
+  margin-top: 90px;
   border-radius: 50%;
   border-style: solid;
   border-color: gray;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 140px;
+  width: 120px;
 }
 
 .name {
@@ -59,7 +63,7 @@ body {
 .container-lists {
   display: flex;
   justify-content: space-around;
-  padding: 30px 180px;
+  padding: 0px 180px;
 }
 
 table {
@@ -88,6 +92,7 @@ th {
 
 .asides {
   border: solid;
+  border-radius: 10px;
   border-color:rgb(15, 112, 15);
   padding: 10px 20px;
   line-height: 25px;
