@@ -13,8 +13,8 @@ html {
 }
 
 hr {
-  width: 300px;
-  margin-bottom: 20px;
+  width: 280px;
+  margin-bottom: 10px;
 }
 
 .section-palette {
@@ -30,8 +30,8 @@ hr {
 .fieldset-palette {
   text-align: center;
   font-size: 15px;
-  border-radius: 30px;
-  border-width: 5px;
+  border-radius: 15px;
+  border: solid 1.5px;
 }
 
 .section-size {
