@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Mene Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">Meme Generator</h1>
+    </header>
+    <main class="container-main">
+      <div>
+        <label htmlFor="text-input">Texto :</label>
+        <input
+          class="input-message"
+          maxlength="60" type="text"
+          id="text-input"
+          placeholder="Insira sua menssagem"
+        >
+        <label htmlFor="meme-insert">Imagem :</label>
+        <input class="input-message" type="file" id="insertMeme"/>
+      </div>
+      <div id="containerMeme" class="container-meme">
+        <p class="style-text" id="meme-text"></p>
+      </div>
+      <section>
+        <fieldset>
+          <legend>Posição da menssagem</legend>
+          <div class="container-select">
+            <div>
+              <label htmlFor="verticalPosition">Vertical</label>
+              <select class="select-input" id="verticalPosition">
+                <option value="flex-start">Topo</option>
+                <option value="center">Centro</option>
+                <option value="flex-end">Embaixo</option>
+              </select>
+            </div>
+            <div>
+              <label htmlFor="horizontalPosition">Horizontal</label>
+              <select class="select-input" id="horizontalPosition">
+                <option value="flex-start">Inicio</option>
+                <option value="center">Centro</option>
+                <option value="flex-end">Fim</option>
+              </select>
+            </div>
+          </div>
+        </fieldset>
+      </section>
+      <section class="container-section">
+        <h3>Molduras</h3>
+        <div class="container-btn">
+          <button class="btn btn-fire" id="fire">Fire</button>
+          <button class="btn btn-water" id="water">Water</button>
+          <button class="btn btn-earth" id="earth">Earth</button>
+        </div>
+      </section>
+      <section class="container-section">
+        <h3>Memes pré-prontos</h3>
+        <div class="container-picture">
+          <img class="img-meme" id="meme-1" src="imgs/meme1.png" alt="meme">
+          <img class="img-meme" id="meme-2" src="imgs/meme2.png" alt="meme">
+          <img class="img-meme" id="meme-3" src="imgs/meme3.png" alt="meme">
+          <img class="img-meme" id="meme-4" src="imgs/meme4.png" alt="meme">
+        </div>
+      </section>
+      <img id="meme-image" width="400px">
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

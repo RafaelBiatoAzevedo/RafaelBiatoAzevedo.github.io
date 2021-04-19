@@ -1,0 +1,125 @@
+body {
+  background-image: url('imgs/fun.jpeg');
+  background-size: cover;
+}
+
+.title {
+  font-size: 40px;
+  text-align: center;
+}
+
+.input-message {
+  border-radius: 4px;
+  margin-right: 20px;
+  padding: 3px;
+  width: 300px;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-meme {
+  display: flex;
+  background-image: url('imgs/memeBlank.png');
+  border: solid black 1px;
+  height: 400px;
+  margin-top: 20px;
+  min-width: 600px;
+  background-size: cover;
+}
+
+.style-image {
+  height: 400px;
+}
+
+.style-text {
+  color: white;
+  font-size: 30px;
+  padding: 0px 20px;
+  text-shadow: 5px 5px 5px black;
+}
+
+.container-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.container-picture {
+  display: flex;
+  justify-content: space-between;
+  width: 550px;
+}
+
+.btn {
+  font-size: 18px;
+  padding: 4px 10px;
+}
+
+
+.btn-fire {
+  background-color: red;
+}
+
+.btn-water {
+  background-color: blue;
+}
+
+.btn-earth {
+  background-color: green;
+}
+
+.fire {
+  border: dashed;
+  border-color: red;
+  border-width: 3px;
+}
+
+.water {
+  border: double;
+  border-color: blue;
+  border-width: 5px;
+}
+
+.earth {
+  border: groove;
+  border-color: green;
+  border-width: 6px;
+}
+
+.img-meme {
+  height: 80px;
+}
+
+.container-select {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  width: 350px;
+}
+
+legend {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+fieldset {
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.select-input {
+  background-color: white;
+  border-radius: 4px;
+  padding: 3px;
+}
