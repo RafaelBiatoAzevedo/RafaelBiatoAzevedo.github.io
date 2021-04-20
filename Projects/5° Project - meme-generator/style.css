@@ -1,6 +1,6 @@
 body {
   background-image: url('imgs/fun.jpeg');
-  background-size: cover;
+  background-size: 100%;
 }
 
 .title {
@@ -24,11 +24,11 @@ body {
 .container-meme {
   display: flex;
   background-image: url('imgs/memeBlank.png');
-  border: solid black 1px;
-  height: 400px;
-  margin-top: 20px;
-  min-width: 600px;
   background-size: cover;
+  border: solid black 1px;
+  height: 300px;
+  margin-top: 20px;
+  min-width: 450px;
 }
 
 .style-image {
