@@ -1,6 +1,6 @@
 body {
   background-image: url('imgs/fun.jpeg');
-  background-size: 100%;
+  background-size: cover;
 }
 
 .title {
@@ -29,10 +29,6 @@ body {
   height: 270px;
   margin-top: 20px;
   min-width: 430px;
-}
-
-.style-image {
-  height: 400px;
 }
 
 .style-text {
