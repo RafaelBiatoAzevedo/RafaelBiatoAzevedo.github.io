@@ -132,12 +132,11 @@ th {
 
   .container-lists {
     justify-content: space-between;
-    margin-top: 20px;
+    margin: 20px 0px;
   }
 
   table {
     font-size: 12px;
-    margin-bottom: 10px;
   }
 
   th {
@@ -171,6 +170,13 @@ th {
 @media screen and (max-width: 900px) {
   .container-lists {
     padding: 0px 40px;
+  }
+
+  .header-nav {
+    text-align: center;
+  }
+  .container-lists {
+    margin: 20px 0px;
   }
 
   table {
