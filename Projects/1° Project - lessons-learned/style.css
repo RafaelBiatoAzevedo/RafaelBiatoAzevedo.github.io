@@ -112,15 +112,17 @@ th {
 @media screen and (max-width: 500px) {
   .title {
     font-size: 15px;
+    font-weight: bold;
   }
 
   .header-nav {
-    text-align: center;
+    font-size: 10px;
     margin-left: 0px;
+    text-align: center;
   }
 
   .my-picture {
-    margin-top: 60px;
+    margin-top: 40px;
     width: 80px;
   }
 
@@ -129,16 +131,16 @@ th {
   }
 
   .container-lists {
-    padding: 0px 20px;
+    justify-content: space-between;
   }
 
   table {
-    font-size: 15px;
+    font-size: 12px;
     margin-bottom: 10px;
   }
 
   th {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .articles {
