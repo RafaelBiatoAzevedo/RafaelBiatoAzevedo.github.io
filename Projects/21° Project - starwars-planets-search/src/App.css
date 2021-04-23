@@ -1,0 +1,214 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media ( prefers-reduced-motion : no-preference ) {
+
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: StarJedai;
+  src: url("./fonts/Starjedi.ttf");
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url("./fonts/OpenSans-Regular.ttf");
+}
+
+
+* {
+  margin: 0;
+  font-family: OpenSans, serif;
+  font-size: 12px;
+}
+
+.title {
+  color: rgb(189, 189, 2);
+  font-family: StarJedai, serif;
+  font-size: 50px;
+}
+
+.input-filter, .select-filter {
+  background-color: white;
+  border-radius: 5px;
+  padding: 1px 5px;
+  width: 120px;
+}
+
+.input-planet {
+  padding: 5px 10px;
+  width: 150px;
+}
+
+.container-filters-main {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-filters {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.header {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.table-info {
+  background-image: url('darthVaden.jpg');
+  height: 645px;
+}
+
+.fieldset-filter {
+  border: solid rgb(189, 189, 2) 1.5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0 0 8px 0;
+  width: 45%;
+}
+
+.container-inputs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-list-filters {
+  align-items: center;
+  color: rgb(189, 189, 2);
+  display: flex;
+  margin: 5px 40px;
+}
+
+label, legend {
+  color: rgb(189, 189, 2);
+}
+
+th {
+  color: rgb(189, 189, 2);
+  font-size: 16px;
+  padding: 5px 20px;
+  text-align: center;
+  width: 80px;
+}
+
+td {
+  font-size: 15px;
+  padding: 5px 20px;
+  text-align: center;
+  width: 80px;
+}
+
+.btn-delete-filter {
+  background-color: black;
+  border: none;
+  color: red;
+  font-size: 20px;
+  font-weight: 900;
+  margin-left: 10px;
+}
+
+.fieldset-sort {
+  align-items: center;
+  border: solid rgb(189, 189, 2) 1.5px;
+  border-radius: 5px;
+  display: flex;
+  height: 40px;
+  justify-content: space-around;
+  text-align: center;
+  padding: 0 0 8px 0;
+  width: 45%;
+}
+
+.input-radio {
+  margin-right: 10px;
+}
+
+.btn-sort, .btn-filter {
+  padding: 0 10px;
+  font-weight: 600;
+}
+
+button {
+  cursor: pointer;
+}
+
+.input-value {
+  width: 110px;
+  height: 15px;
+}
+
+.link-info {
+  text-decoration: none;
+  color: blue;
+}
+
+.container-footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: 80px;
+}
+
+.footer-company {
+  color: rgb(189, 189, 2);
+}
+
+.cell-title {
+  background-color: #282c34;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cell-info {
+  align-items: center;
+  border-bottom: solid 0.1px rgb(107, 106, 106);
+  display: flex;
+  justify-content: space-between;
+}
