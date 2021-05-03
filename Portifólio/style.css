@@ -30,8 +30,9 @@ strong {
 }
 
 .title {
-  width: 60%;
   font-size: 75%;
+  margin-right: 300px;
+  width: 35%;
 }
 
 .picture {
