@@ -4,10 +4,13 @@
   text-decoration-style: solid;
 }
 
+.container-header {
+  display: flex;
+  justify-content: center;
+}
+
 .title {
-  text-align: center;
   color: blue;
-  margin: 40px;
 }
 
 .input-todo {
@@ -43,6 +46,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .container-input {
@@ -84,23 +88,25 @@
 @media screen and (max-width: 500px) {
   .title {
     font-size: 20px;
+    margin: 20px;
   }
 
   .input-todo {
-    font-size: 15px;
+    font-size: 10px;
     padding: 0px 10px;
-    width: 150px;
+    width: 110px;
   }
 
   .btn {
-    font-size: 10px;
-    margin: 2px 5px;
+    font-size: 8px;
+    margin: 2px 3px;
     padding: 3px 5px;
   }
 
   .msg-observation {
-    font-size: 9px;
+    font-size: 10px;
     text-align: center;
+    width: 250px;
   }
 
   .btn-remove {
@@ -113,5 +119,33 @@
 
   .list-asks {
     font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 900px) {
+  .input-todo {
+    font-size: 15px;
+    padding: 0px 10px;
+    width: 200px;
+  }
+
+  .btn {
+    font-size: 14px;
+    margin: 2px 3px;
+    padding: 3px 5px;
+  }
+
+  .btn-remove {
+    font-size: 10px;
+  }
+
+  .btn-up, .btn-down {
+    font-size: 15px;
+  }
+
+  .msg-observation {
+    font-size: 14px;
+    text-align: center;
+    width: 300px;
   }
 }
