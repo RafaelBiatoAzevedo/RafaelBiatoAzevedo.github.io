@@ -74,8 +74,8 @@ strong {
   align-items: center;
   flex-direction: column;
   display: flex;
-  max-height: 460px;
-  min-height: 460px;
+  max-height: 420px;
+  min-height: 420px;
   width: 15%;
 }
 
