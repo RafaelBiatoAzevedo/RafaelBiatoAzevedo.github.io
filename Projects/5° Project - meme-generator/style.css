@@ -57,6 +57,7 @@ body {
 }
 
 .btn {
+  border-radius: 5px;
   font-size: 15px;
   padding: 3px 8px;
 }
@@ -117,4 +118,67 @@ fieldset {
   background-color: white;
   border-radius: 4px;
   padding: 3px;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-image: url('');
+    background-color: rgb(79, 115, 163);
+  }
+
+  .title {
+    font-size: 25px;
+  }
+
+  .input-message {
+    width: 200px;
+  }
+
+  .container-insert {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding: 2px 0 0 10px;
+  }
+
+  .container-meme {
+    height: 190px;
+    margin-top: 20px;
+    min-width: 280px;
+  }
+
+  .style-text {
+    font-size: 20px;
+  }
+
+  .container-picture {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+  }
+
+  .container-select {
+    width:280px;
+  }
+
+  .container-btn {
+    width: 200px;
+  }
+
+  .img-meme {
+    width: 120px;
+    margin: 5px;
+  }
+
+  h4 {
+    margin: 5px;
+  }
+} 
+
+@media screen and (max-width: 900px) {
+  .container-insert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }

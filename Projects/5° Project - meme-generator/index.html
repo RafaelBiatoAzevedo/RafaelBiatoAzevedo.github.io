@@ -11,16 +11,20 @@
         <h1 class="title">Meme Generator</h1>
     </header>
     <main class="container-main">
-      <div>
-        <label htmlFor="text-input">Texto :</label>
-        <input
-          class="input-message"
-          maxlength="60" type="text"
-          id="text-input"
-          placeholder="Insira sua menssagem"
-        >
-        <label htmlFor="meme-insert">Imagem :</label>
-        <input class="input-message" type="file" id="insertMeme"/>
+      <div class="container-insert">
+        <label htmlFor="text-input">
+          Texto :
+          <input
+            class="input-message"
+            maxlength="60" type="text"
+            id="text-input"
+            placeholder="Insira sua menssagem"
+          >
+        </label>
+        <label htmlFor="meme-insert">
+          Imagem :
+          <input class="input-message" type="file" id="insertMeme"/>
+        </label>
       </div>
       <div id="containerMeme" class="container-meme">
         <p class="style-text" id="meme-text"></p>
