@@ -25,6 +25,10 @@ strong {
   margin: 10px;
 }
 
+.logo {
+  width: 900px;
+}
+
 .title {
   width: 60%;
   font-size: 75%;
