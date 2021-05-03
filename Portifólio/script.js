@@ -4,15 +4,15 @@ const home = '<div class="homeHeader-container">'
 +'</div>'
 +'<h3>Projetos Particulares:</h3>'
 +'<div class="my-projects">'
-  +'<a class="link-project" href="https://rafaelbiatoazevedo.github.io/SiteBrothers/" target="blank">'
+  +'<a class="link-project" href="https://rafaelbiatoazevedo.github.io/SiteBrothers/" target="_blank">'
     +'<img src="./imagens/logo-brothers.png" alt="logo-brothers" width="110px"/>'
   +'</a>'
-  +'<a class="link-project" href="" target="blank">'
+  +'<a class="link-project" href="" target="_blank">'
     +'<img src="./imagens/logoRafaExpressWhite.png" alt="logo-rafaexpress" width="200px"/>'
   +'</a>'
 +'</div>'
 +'<h3>Projetos na Trybe:</h3><br>'
-+'<a class="link-home-github" href="https://github.com/RafaelBiatoAzevedo/RafaelBiatoAzevedo.github.io/tree/main/Projects" target="blank"><img src="./imagens/logo_github.png" alt="logo-gihub" width="70px"/></a>';
++'<a class="link-home-github" href="https://github.com/RafaelBiatoAzevedo/RafaelBiatoAzevedo.github.io/tree/main/Projects" target="_blank"><img src="./imagens/logo_github.png" alt="logo-gihub" width="70px"/></a>';
 
 const formation = '<h2>Formação</h2>'
 +'<p class="text-principal"><strong>Trybe</strong><br>Desenvolvimento Web Full Stack 1° Semestre<br>Situação: Cursando</p>'
@@ -58,7 +58,7 @@ const experiences = '<h2>Experiências Profissionais</h2>'
 +'<p class="text-principal"><strong>Restaurante Bandeirantes</strong><br>Av. Bandeirantes 1640, Mogi-Guaçu - SP<br>Cargo: Gerente<br>De: Janeiro/2003 - Até: Maio/2018</p>'
  
 const certificates = '<h2>Certificados</h2>'
-+ '<a class="link-certificate" href="./certificates/RafaelModulo1.pdf" target="blank"><img class="contact-icon" src="./imagens/certificateModulo1.jpeg" width="200px" alt="certificate1" /></a>'
++ '<a class="link-certificate" href="./certificates/RafaelModulo1.pdf" target="_blank"><img class="contact-icon" src="./imagens/certificateModulo1.jpeg" width="200px" alt="certificate1" /></a>'
 
 const about = '<h2>Sobre mim</h2>'
 +'<p class="text-principal">Iniciei estudos na área de TI desde muito jovem.<br>'
@@ -75,9 +75,9 @@ const contacts = '<h2>Contato</h2>'
 +'<p class="text-principal contact"><img class="contact-icon" src="./imagens/celIcon.jpeg" width="50px" alt="celIcon" /> (19) 997426983</p>'
 +'<p class="text-principal contact"><img class="contact-icon" src="./imagens/emailIcon.png" width="50px" alt="emailIcon" /> rafaelazevedo321@gmail.com</p>'
 +'<div class="links-container">'
-  +'<a class="link" href="https://www.linkedin.com/in/rafael-azevedo-530889195/" target="blank"><img src="./imagens/logo_linke.png" alt="logo-linke" width="50px"/></a>'
-  +'<a class="link" href="https://github.com/RafaelBiatoAzevedo" target="blank"><img src="./imagens/logo_github.png" alt="logo-gihub" width="60px"/></a>'
-  +'<a class="link" href="https://www.instagram.com/rafael_azevedo_55/" target="blank"><img src="./imagens/logo_insta.png" alt="logo-insta" width="50px"/></a>'
+  +'<a class="link" href="https://www.linkedin.com/in/rafael-azevedo-530889195/" target="_blank"><img src="./imagens/logo_linke.png" alt="logo-linke" width="50px"/></a>'
+  +'<a class="link" href="https://github.com/RafaelBiatoAzevedo" target="_blank"><img src="./imagens/logo_github.png" alt="logo-gihub" width="60px"/></a>'
+  +'<a class="link" href="https://www.instagram.com/rafael_azevedo_55/" target="_blank"><img src="./imagens/logo_insta.png" alt="logo-insta" width="50px"/></a>'
 +'</div>';
 
 
