@@ -102,8 +102,9 @@ ul {
 }
 
 li {
-  margin-top: 10px;
+  font-size: 14px;
   list-style-position:  outside;
+  margin-top: 10px;
 }
 
 .links-container {
