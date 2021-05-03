@@ -80,3 +80,38 @@
   background-color: green;
   color: white;
 }
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .input-todo {
+    font-size: 15px;
+    padding: 0px 10px;
+    width: 150px;
+  }
+
+  .btn {
+    font-size: 10px;
+    margin: 2px 5px;
+    padding: 3px 5px;
+  }
+
+  .msg-observation {
+    font-size: 9px;
+    text-align: center;
+  }
+
+  .btn-remove {
+    font-size: 10px;
+  }
+
+  .btn-up, .btn-down {
+    font-size: 15px;
+  }
+
+  .list-asks {
+    font-size: 17px;
+  }
+}
