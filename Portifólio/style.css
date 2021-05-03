@@ -30,7 +30,7 @@ strong {
 }
 
 .title {
-  font-size: 75%;
+  font-size: 25px;
   margin-right: 300px;
   width: 65%;
 }
@@ -75,8 +75,8 @@ strong {
   align-items: center;
   flex-direction: column;
   display: flex;
-  max-height: 490px;
-  min-height: 490px;
+  max-height: 460px;
+  min-height: 460px;
   width: 15%;
 }
 
