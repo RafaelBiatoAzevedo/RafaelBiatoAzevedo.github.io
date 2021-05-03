@@ -60,7 +60,7 @@ const experiences = '<h2>Experiências Profissionais</h2>'
 +'<p class="text-principal"><strong>Restaurante Bandeirantes</strong><br>Av. Bandeirantes 1640, Mogi-Guaçu - SP<br>Cargo: Gerente<br>De: Janeiro/2003 - Até: Maio/2018</p>'
  
 const certificates = '<h2>Certificados</h2>'
-+ '<a class="link-certificate" href="./certificates/RafaelModulo1.pdf" target="_blank"><img class="contact-icon" src="./imagens/certificateModulo1.jpeg" width="200px" alt="certificate1" /></a>'
++ '<a class="link-certificate" href="./certificates/RafaelModulo1.pdf" target="_blank"><img class="certificate-icon" src="./imagens/certificateModulo1.jpeg" width="200px" alt="certificate1" /></a>'
 
 const about = '<h2>Sobre mim</h2>'
 +'<p class="text-principal">Iniciei estudos na área de TI desde muito jovem.<br>'
