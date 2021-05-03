@@ -1,5 +1,11 @@
+@font-face {
+  font-family: 'OpenSams';
+  src: url('./fontes/OpenSans-Regular.ttf');
+}
+
 * {
   margin: 0;
+  font-family: "OpenSams";
 }
 
 strong {
@@ -7,10 +13,11 @@ strong {
 }
 
 .header {
+  align-items: center;
   background-color: #5f5f5f;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding: 0 60px;
 }
 
 .image-header {
@@ -59,7 +66,8 @@ strong {
 }
 
 .left-content, .right-content {
-  height: 460px;
+  max-height: 490px;
+  min-height: 490px;
 }
 
 .left-content, .right-content {
@@ -78,6 +86,11 @@ strong {
 .text-principal {
   padding: 20px;
   line-height: 25px;
+}
+
+.contact {
+  align-items: center;
+  display: flex;
 }
 
 ul {
@@ -129,4 +142,14 @@ li {
 
 .course {
   padding: 10px;
+}
+
+.contact-icon {
+  margin-right: 10px;
+}
+
+.link-certificate {
+  cursor: pointer;
+  display: flex;
+  margin: 20px 30px;
 }

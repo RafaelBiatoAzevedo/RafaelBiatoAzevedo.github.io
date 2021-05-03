@@ -5,10 +5,10 @@ const home = '<div class="homeHeader-container">'
 +'<h3>Projetos Particulares:</h3>'
 +'<div class="my-projects">'
   +'<a class="link-project" href="https://rafaelbiatoazevedo.github.io/SiteBrothers/" target="blank">'
-    +'<img src="./imagens/logo-brothers.png" alt="logo-brothers" width="150px"/>'
+    +'<img src="./imagens/logo-brothers.png" alt="logo-brothers" width="110px"/>'
   +'</a>'
   +'<a class="link-project" href="" target="blank">'
-    +'<img src="./imagens/logoRafaExpressWhite.png" alt="logo-rafaexpress" width="250px"/>'
+    +'<img src="./imagens/logoRafaExpressWhite.png" alt="logo-rafaexpress" width="200px"/>'
   +'</a>'
 +'</div>'
 +'<h3>Projetos na Trybe:</h3><br>'
@@ -57,6 +57,8 @@ const courses = '<h2>Cursos</h2>'
 const experiences = '<h2>Experiências Profissionais</h2>'
 +'<p class="text-principal"><strong>Restaurante Bandeirantes</strong><br>Av. Bandeirantes 1640, Mogi-Guaçu - SP<br>Cargo: Gerente<br>De: Janeiro/2003 - Até: Maio/2018</p>'
  
+const certificates = '<h2>Certificados</h2>'
++ '<a class="link-certificate" href="./certificates/RafaelModulo1.pdf" target="blank"><img class="contact-icon" src="./imagens/certificateModulo1.jpeg" width="200px" alt="certificate1" /></a>'
 
 const about = '<h2>Sobre mim</h2>'
 +'<p class="text-principal">Iniciei estudos na área de TI desde muito jovem.<br>'
@@ -67,11 +69,11 @@ const about = '<h2>Sobre mim</h2>'
 +'Em 2020 decidi mudar e trabalhar com TI que realmente amo e retomei os estudos em desenvolvimento web full stack na Trybe.</p>';
 
 const contacts = '<h2>Contato</h2>'
-+'<p class="text-principal">'
-  +'<strong>Endereço:</strong> Rua Cleonice Ap. Cruz Thielle, 350 - Jd. Alvorada<br>Cep: 13841-077, Mogi-Guaçu - SP'
++'<p class="text-principal contact">'
+  +'<img class="contact-icon" src="./imagens/adressIcon.jpeg" width="50px" alt="adressIcon" /> Rua Cleonice Ap. Cruz Thielle, 350 - Jd. Alvorada<br>Cep: 13841-077, Mogi-Guaçu - SP'
 +'</p>'
-+'<p class="text-principal"><strong>Cel/Whats:</strong> (19) 997426983</p>'
-+'<p class="text-principal"><strong>Email:</strong> rafaelazevedo321@gmail.com</p>'
++'<p class="text-principal contact"><img class="contact-icon" src="./imagens/celIcon.jpeg" width="50px" alt="celIcon" /> (19) 997426983</p>'
++'<p class="text-principal contact"><img class="contact-icon" src="./imagens/emailIcon.png" width="50px" alt="emailIcon" /> rafaelazevedo321@gmail.com</p>'
 +'<div class="links-container">'
   +'<a class="link" href="https://www.linkedin.com/in/rafael-azevedo-530889195/" target="blank"><img src="./imagens/logo_linke.png" alt="logo-linke" width="50px"/></a>'
   +'<a class="link" href="https://github.com/RafaelBiatoAzevedo" target="blank"><img src="./imagens/logo_github.png" alt="logo-gihub" width="60px"/></a>'
@@ -93,6 +95,9 @@ const showInformations = (evt) => {
     case 'spanCourses':
       mainContainer.innerHTML = courses;
       break;
+    case 'spanCertificates':
+      mainContainer.innerHTML = certificates;
+      break;  
     case 'spanExperiences':
       mainContainer.innerHTML = experiences;
       break;
@@ -121,6 +126,8 @@ const createEvents = () => {
     .querySelector('#spanFormation').addEventListener('click', showInformations);
   const courses = document
     .querySelector('#spanCourses').addEventListener('click', showInformations);
+  const certificates = document
+    .querySelector('#spanCertificates').addEventListener('click', showInformations);
   const experiences = document
     .querySelector('#spanExperiences').addEventListener('click', showInformations);
   const about = document
