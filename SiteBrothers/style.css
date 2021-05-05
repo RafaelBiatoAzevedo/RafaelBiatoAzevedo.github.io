@@ -222,6 +222,7 @@
 .company {
   background-color: #005952;
   color: #f79831;
+  text-align: center;
 }
 
 @media screen and (max-width: 500px) {
@@ -255,7 +256,7 @@
   }
 
   .service-container {
-    padding: 3px 0px;
+    padding: 8px 0px;
   }
   
   .text-container {
@@ -270,6 +271,7 @@
 
   .service-title {
     font-size: 15px;
+    text-align: center;
   }
   
   .service-description {
@@ -302,6 +304,7 @@
     align-items: center;
     flex-direction: column;
   }
+
   .contact-container {
     padding: 10px 0;
     width: 90%;
@@ -313,5 +316,81 @@
   
   .contact-cel {
     font-size: 15px;  
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  .container-header {
+    padding: 0 10px;
+  }
+
+  .logotype {
+    width: 80px;
+  }
+
+  .title {
+    font-size: 35px;
+  }
+  
+  .subtitle {
+    font-size: 15px;
+  }
+
+  .conatiner-button {
+    padding: 10px;
+  }
+
+  .btn-order {
+    width: 110px;
+    font-size: 10px;
+    padding: 4px 2px;
+  }
+
+  .span-button {
+    font-size: 10px;
+  }
+
+  .nav-container {
+    font-size: 13px;
+    padding: 5px;
+  }
+  
+  .span-nav {
+    border-right: solid 2px;
+    padding-right: 20px;
+  }
+
+  .service-local {
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  .service-container {
+    padding: 8px 0px;
+    border: solid red;
+  }
+
+  .text-container {
+    width: 250px;
+  }
+  
+  .service-image {
+    width: 220px;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+
+  .contact-msg {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  .company {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .contact-cel {
+    font-size: 13px;  
   }
 }
