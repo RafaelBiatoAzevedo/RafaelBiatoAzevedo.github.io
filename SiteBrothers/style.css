@@ -223,3 +223,95 @@
   background-color: #005952;
   color: #f79831;
 }
+
+@media screen and (max-width: 500px) {
+  .container-header {
+    justify-content: center;
+    padding: 0;
+  }
+
+  .logotype {
+    width: 150px;
+  }
+
+  .title, .subtitle, .conatiner-button {
+    display: none;
+  }
+
+  .nav-container {
+    justify-content: space-around;
+    font-size: 10px;
+    padding: 3px;
+  }
+
+  .span-nav {
+    border-right: solid 2px;
+    padding-right: 10px;
+  }
+
+  .service-local {
+    font-size: 13px;
+    padding: 5px;
+  }
+
+  .service-container {
+    padding: 3px 0px;
+  }
+  
+  .text-container {
+    width: 150px;
+  }
+  
+  .service-image {
+    width: 150px;
+    border-radius: 20px;
+    margin-right: 5px;
+  }
+
+  .service-title {
+    font-size: 15px;
+  }
+  
+  .service-description {
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  .service-btn {
+    width: 80px;
+    font-size: 8px;
+    padding: 2px;
+  }
+
+  .footer-container {
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  .company {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .contact-msg {
+    font-size: 8px;
+    margin-top: 5px;
+  }
+
+  .contact-container-main {
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact-container {
+    padding: 10px 0;
+    width: 90%;
+  }
+  
+  .contact-image {
+    width: 80px;
+  }
+  
+  .contact-cel {
+    font-size: 15px;  
+  }
+}
