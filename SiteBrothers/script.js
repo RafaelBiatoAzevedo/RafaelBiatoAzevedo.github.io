@@ -251,7 +251,7 @@ showCompany = () => {
   div.className = 'logo-description';
   const h3 = document.createElement('h3');
   h3.innerText = 'Informações';
-  h3.className='subtitle';
+  h3.className='subtitle logoSubtitle';
   const paragraph = document.createElement('p');
   paragraph.innerText = 'Logo criado em Free Logo Maker. \n'
     +'"Brothers reparos em geral" '

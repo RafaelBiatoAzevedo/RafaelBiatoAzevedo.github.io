@@ -317,6 +317,22 @@
   .contact-cel {
     font-size: 15px;  
   }
+
+
+  .logo-description {
+    padding: 10px;
+  }
+
+  .logoSubtitle {
+    display: inline;
+    font-size: 17px;
+  }
+
+  .paragraph-logo {
+    font-size: 15px;
+    padding: 5px;
+  }
+
 }
 
 @media screen and (min-width: 501px) and (max-width: 800px) {
@@ -367,7 +383,6 @@
 
   .service-container {
     padding: 8px 0px;
-    border: solid red;
   }
 
   .text-container {
@@ -392,5 +407,9 @@
 
   .contact-cel {
     font-size: 13px;  
+  }
+
+  .logoSubtitle {
+    font-size: 25px;
   }
 }
