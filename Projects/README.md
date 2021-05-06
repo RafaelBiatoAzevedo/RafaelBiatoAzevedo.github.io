@@ -8,3 +8,7 @@ Navegue nos Projetos:
 - https://rafaelbiatoazevedo.github.io/Projects/4%C2%B0%20Project%20-%20todo-list/
 
 - https://rafaelbiatoazevedo.github.io/Projects/5%C2%B0%20Project%20-%20meme-generator/
+
+- https://rafaelbiatoazevedo.github.io/Projects/6%C2%B0%20Project%20-%20color-guess/
+
+- https://rafaelbiatoazevedo.github.io/Projects/7%C2%B0%20Project%20-%20mistery-letter/
