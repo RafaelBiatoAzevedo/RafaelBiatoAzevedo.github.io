@@ -13,11 +13,17 @@ const home = '<div class="homeHeader-container">'
 +'</div>'
 +'<h3>Projetos na Trybe:</h3><br>'
 +'<div class="container-project-trybe">'
-  +'<select class="select-projects"><option>In development<option/><select/>'
+  +'<select id="selectProjects" class="select-projects">'
+  +'  <option>Escolha um projeto</option>'
+  +'  <option value="lessons-learned">1° Projeto Lessons Learned</option>'
+  +'  <option value="playground-functions">2° Projeto Playground Functions</option>'
+  +'  <option value="pixels-art">3° Projeto Pixels Art</option>'
+  +'  <option value="todo-list">4° Projeto Todo List</option>'
+  +'  <option value="meme-generator">5° Projeto Meme Generator</option>'
+  +'<select>'
   +'<a class="link-home-github" href="https://github.com/RafaelBiatoAzevedo/RafaelBiatoAzevedo.github.io/tree/main/Projects" target="_blank"><img class="link-logo-github" src="./imagens/logo_github.png" alt="logo-gihub"/></a>'
 +'<div/>'
 const formation = '<h2>Formação</h2>'
-+'<p class="text-principal"><strong>Trybe</strong><br>Desenvolvimento Web Full Stack 1° Semestre<br>Situação: Cursando</p>'
 +'<p class="text-principal"><strong>Pontifícia Universidade Católica (PUC-Campinas)</strong><br>Análise de Sistemas 7° semestre<br>Situação: trancado desde 2009</p>';
 
 const courses = '<h2>Cursos</h2>'
@@ -114,16 +120,38 @@ const showInformations = (evt) => {
   }
 };
 
+const selectProject = (evt) => {
+  const { value } = evt.target;
+  switch (value) {
+  case 'lessons-learned':
+    window.location.assign('https://rafaelbiatoazevedo.github.io/Projects/1%C2%B0%20Project%20-%20lessons-learned/');
+    break;
+  case 'playground-functions':
+    window.location.assign('https://github.com/RafaelBiatoAzevedo/RafaelBiatoAzevedo.github.io/tree/main/Projects/2%C2%B0%20Project%20-%20playground-functions')
+    break;
+  case 'pixels-art':
+    window.location.assign('https://rafaelbiatoazevedo.github.io/Projects/3%C2%B0%20Project%20-%20pixels-art/');
+    break;
+  case 'todo-list':
+    window.location.assign('https://rafaelbiatoazevedo.github.io/Projects/4%C2%B0%20Project%20-%20todo-list/');
+    break;
+  case 'meme-generator':
+    window.location.assign('https://rafaelbiatoazevedo.github.io/Projects/5%C2%B0%20Project%20-%20meme-generator/');
+    break;
+  }
+}
+
 const showHome = () => {
   const mainContainer = document.querySelector('#centerContent');
   mainContainer.innerHTML = '';
   mainContainer.innerHTML = home;
-
+  const selectProjects = document.querySelector('#selectProjects');
+  selectProjects.addEventListener('change', selectProject);
 }
 
 const createEvents = () => {
   const home = document
-    .querySelector('#spanHome').addEventListener('click', showInformations);
+    .querySelector('#spanHome').addEventListener('click', showHome);
   const formation = document
     .querySelector('#spanFormation').addEventListener('click', showInformations);
   const courses = document

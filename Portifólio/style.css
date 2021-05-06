@@ -120,10 +120,6 @@ li {
   margin: 10px 50px 10px 50px;
 }
 
-.link-home-github {
-  margin-left: 100px;
-}
-
 .homeHeader-container {
   display: flex;
   flex-direction: column;
@@ -133,15 +129,15 @@ li {
 }
 
 .logoBrothers {
-  width: 110px;
+  width: 90px;
 }
 
 .logoRafaexpress {
-  width: 200px;
+  width: 180px;
 }
 
 .link-logo-github {
-  width: 70px;
+  width: 85px;
 }
 
 .link-logo-linkid, .link-logo-insta {
@@ -198,7 +194,7 @@ li {
   border-radius: 5px;
   font-size: 20px;
   padding: 3px 10px;
-  width: 200px;
+  width: 300px;
 }
 
 @media screen and (max-width: 600px) {
