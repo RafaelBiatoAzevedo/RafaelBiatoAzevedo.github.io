@@ -10,6 +10,7 @@
 
 .container-main {
   background-image: url('./images/letter.jpg');
+  background-position: 50%;
   background-size: cover;
   align-items: center;
   display: flex;
