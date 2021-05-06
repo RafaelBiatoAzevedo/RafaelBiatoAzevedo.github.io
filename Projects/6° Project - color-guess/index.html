@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Color-Guess</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body-app">
+      <header>
+        <div class="container-header">
+          <h1 id="title">Adivinhe a Cor ?</h1>
+        </div>
+      </header>
+      <main>
+        <div class="container-main">
+          <fieldset class="container-rules">
+            <legend>Regras</legend>
+            <p>Acertos aumenta 3 pontos</p>
+            <p>Erros diminuem 1 ponto</p>
+          </fieldset>
+          <div class="container-rgb">
+            <p class="rgb">Pista: RGB </p>
+            <p id="rgb-color"></p>
+          </div>
+          <p class="p-score" id="score">Score: <span>0</span></p>
+          <section class="container-colors">
+              <div class="ball"></div>
+              <div class="ball"></div>
+              <div class="ball"></div>
+              <div class="ball"></div>
+              <div class="ball"></div>
+              <div class="ball"></div>
+          </section>
+          <p id="answer">Escolha uma cor</p>
+          <button id="reset-game">Reset</button>
+        </div>
+      </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
