@@ -3,6 +3,10 @@
   background-color: #fcf8f5;
 }
 
+.main-container {
+  padding-bottom: 90px;
+}
+
 .logotype {
   width: 120px;
   cursor: pointer;
@@ -114,10 +118,6 @@
   cursor: pointer;
 }
 
-.main-container {
-  min-height: 550px;
-}
-
 .service-local {
   display: flex;
   justify-content: center;
@@ -202,7 +202,6 @@
   padding: 22px;
   text-align: center;
   color: #005952;
-  font-size: ;
 }
 
 .contact-cel {
@@ -214,9 +213,11 @@
 .footer-container {
   display: flex;
   background-color: #005952;
+  bottom: 0;
   justify-content: center;
-  margin-top: 30px;
-  padding: 30px;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
 }
 
 .company {
@@ -231,8 +232,12 @@
     padding: 0;
   }
 
+  .main-container {
+    padding-bottom: 60px;
+  }
+
   .logotype {
-    width: 150px;
+    width: 120px;
   }
 
   .title, .subtitle, .conatiner-button {
@@ -242,12 +247,12 @@
   .nav-container {
     justify-content: space-around;
     font-size: 10px;
-    padding: 3px;
+    padding: 3px 5px;
   }
 
   .span-nav {
     border-right: solid 2px;
-    padding-right: 10px;
+    padding-right: 5px;
   }
 
   .service-local {
@@ -256,11 +261,12 @@
   }
 
   .service-container {
+    justify-content: space-around;
     padding: 8px 0px;
   }
   
   .text-container {
-    width: 150px;
+    width: 170px;
   }
   
   .service-image {
@@ -293,6 +299,7 @@
   .company {
     font-size: 10px;
     text-align: center;
+    width: 80%;
   }
 
   .contact-msg {
@@ -332,7 +339,6 @@
     font-size: 15px;
     padding: 5px;
   }
-
 }
 
 @media screen and (min-width: 501px) and (max-width: 800px) {
@@ -373,7 +379,7 @@
   
   .span-nav {
     border-right: solid 2px;
-    padding-right: 20px;
+    padding-right: 10px;
   }
 
   .service-local {
