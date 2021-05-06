@@ -90,7 +90,7 @@ function createEvents() {
   document.querySelector('#facebook-register').addEventListener('click', validacao);
   document.querySelector('#perso').addEventListener('click', generoPersonaliza);
   document.querySelector('#fem').addEventListener('click', removeInputGender);
-  document.querySelector('#masc').radioMasc.addEventListener('click', removeInputGender);
+  document.querySelector('#masc').addEventListener('click', removeInputGender);
 }
 
 window.onload = function () {
