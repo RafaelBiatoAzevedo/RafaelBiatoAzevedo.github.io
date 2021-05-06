@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container-mobile {
+  display: none;
+}
+
+.container-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(66, 103, 178);
+  height: 80px;
+}
+
+.facebook-logo {
+  width: 220px;
+}
+
+.facebook-login {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-login {
+  font-size: 16px;
+  width: 130px;
+}
+
+.input-login::placeholder {
+  color: white;
+}
+
+.form-control {
+  align-self: center;
+}
+
+.text-login {
+  color: white;
+}
+
+.btn-enter {
+  background-color: rgb(66, 103, 178);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.main-content {
+  background-color: rgb(204, 204, 252);
+  display: flex;
+  justify-content: center;
+  height: 600px;
+}
+
+.left-content {
+  width: 500px;
+  padding-top: 20px;
+}
+
+.text-left-content {
+  color: rgb(2, 23, 65);
+  font-size: 20px;
+  font-weight: bold;
+  width: 390px;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  margin-left: 260px;
+  width: 400px;
+  padding: 10px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 380px;
+}
+
+.container-birthdate {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-text {
+  border-color: rgb(196, 194, 194);
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px 2px;
+}
+
+.subtitle-form {
+  font-weight: 200;
+}
+
+.full-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  width: 160px;
+}
+
+.name, .lastname {
+  width: 180px;
+}
+
+.label-form {
+  color: rgb(77, 75, 75);
+  font-weight: bold;
+}
+
+.label-radio {
+  font-size: 18px;
+}
+
+.btn-sign {
+  background-color: rgb(1, 161, 1);
+  border-radius: 5px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 4px 2px;
+  width: 210px;
+}
+
+@media screen and (max-width: 800px) {
+  .container-header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 310px;
+  }
+
+  .container-logo {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(66, 103, 178);
+    height: 50px;
+    width: 100%;
+  }
+
+  .facebook-logo {
+    width: 150px;
+  }
+
+  .facebook-login {
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .main-content {
+    display: none;
+  }
+
+  .text-login {
+    display: none;
+  }
+
+  .input-login {
+    width: 250px;
+    font-size: 20px;
+    padding: 5px 5px;
+    background-color: rgb(245, 241, 241);
+    border: solid rgb(192, 189, 189) 1px;
+    border-radius: 5px;
+  }
+
+  .btn-enter {
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 265px;
+    padding: 8px 10px;
+    border-style: none;
+  }
+
+  .container-mobile {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-line {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 265px;
+  }
+
+  .hr-line {
+    width: 40%;
+  }
+
+  .btn-sign {
+    font-size: 20px;
+    border-style: none;
+  }
+
+  .text-forgot {
+    color: rgb(44, 44, 240);
+  }
+
+  .input-login::placeholder {
+    color: gray;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+  .right-content {
+    margin-left: 10px;
+  }
+
+  .left-content {
+    width: 330px;
+  }
+
+  .text-left-content {
+    width: 300px;
+  }
+
+  .img-conection {
+    width: 300px;
+  }
+}

@@ -22,6 +22,7 @@ const home = '<div class="homeHeader-container">'
   +'  <option value="meme-generator">5° Projeto Meme Generator</option>'
   +'  <option value="color-guess">6° Projeto Color Guess</option>'
   +'  <option value="mistery-letter">7° Projeto Mistery Letter</option>'
+  +'  <option value="facebook-signup">8° Projeto Facebook SignUp</option>'
   +'<select>'
   +'<a class="link-home-github" href="https://github.com/RafaelBiatoAzevedo/RafaelBiatoAzevedo.github.io/tree/main/Projects" target="_blank"><img class="link-logo-github" src="./imagens/logo_github.png" alt="logo-gihub"/></a>'
 +'<div/>'
@@ -145,6 +146,9 @@ const selectProject = (evt) => {
     break;
   case 'mistery-letter':
     window.location.assign('https://rafaelbiatoazevedo.github.io/Projects/7%C2%B0%20Project%20-%20mistery-letter/');
+    break;
+  case 'facebook-signup':
+    window.location.assign('https://rafaelbiatoazevedo.github.io/Projects/8%C2%B0%20Project%20-%20facebook-signup/');
     break;
   }
 }
