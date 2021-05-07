@@ -70,14 +70,14 @@
   align-items: center;
   flex-direction: column;
   display: flex;
-  max-height: 430px;
-  min-height: 430px;
+  max-height: 380px;
+  min-height: 380px;
   width: 15%;
 }
 
 .center-content {
   width: 45%;
-  min-height: 430px;
+  min-height: 380px;
   margin-bottom: 80px;
 }
 
