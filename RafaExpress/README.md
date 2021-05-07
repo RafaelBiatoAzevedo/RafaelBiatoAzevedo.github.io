@@ -11,3 +11,4 @@ Tecnologias usadas:
 - React
 - Redux
 - Redux thunk
+
