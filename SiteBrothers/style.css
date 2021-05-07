@@ -215,12 +215,13 @@
   background-color: #005952;
   bottom: 0;
   justify-content: center;
-  padding: 20px;
+  padding: 10px;
   position: fixed;
   width: 100%;
 }
 
 .company {
+  font-size: 12px;
   background-color: #005952;
   color: #f79831;
   text-align: center;
