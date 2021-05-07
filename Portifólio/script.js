@@ -1,5 +1,5 @@
 const home = '<div class="homeHeader-container">'
-  +'<h2>Rafael Azevedo</h2>'
+  +'<h1>Rafael Azevedo</h1>'
   +'<h4>Full Stack Web development student at Trybe</h4>'
 +'</div>'
 +'<h3>My Projects</h3>'
