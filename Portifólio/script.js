@@ -15,16 +15,19 @@ const home = '<div class="homeHeader-container">'
 +'<div class="container-project-trybe">'
   +'<select id="selectProjects" class="select-projects">'
   +'  <option>Choose project</option>'
-  +'  <option value="lessons-learned">1° Project Lessons Learned</option>'
-  +'  <option value="playground-functions">2° Project Playground Functions (only code)</option>'
-  +'  <option value="pixels-art">3° Project Pixels Art</option>'
-  +'  <option value="todo-list">4° Project Todo List</option>'
-  +'  <option value="meme-generator">5° Project Meme Generator</option>'
-  +'  <option value="color-guess">6° Project Color Guess</option>'
-  +'  <option value="mistery-letter">7° Project Mistery Letter</option>'
-  +'  <option value="facebook-signup">8° Project Facebook SignUp</option>'
-  +'  <option value="zoo-functions">9° Project Zoo Functions (only code)</option>'
+  +'  <option value="pokedex-RTL">15° Project Pokedex (RTL)</option>'
+  +'  <option value="movie-card-library">12°, 13° e 14° Project Movie Card Library</option>'
+  +'  <option value="jest">11° Project Jest (only code)</option>'
   +'  <option value="shopping-cart">10° Project Shopping Cart</option>'
+  +'  <option value="zoo-functions">9° Project Zoo Functions (only code)</option>'
+  +'  <option value="facebook-signup">8° Project Facebook SignUp</option>'
+  +'  <option value="mistery-letter">7° Project Mistery Letter</option>'
+  +'  <option value="color-guess">6° Project Color Guess</option>'
+  +'  <option value="meme-generator">5° Project Meme Generator</option>'
+  +'  <option value="todo-list">4° Project Todo List</option>'
+  +'  <option value="pixels-art">3° Project Pixels Art</option>'
+  +'  <option value="playground-functions">2° Project Playground Functions (only code)</option>'
+  +'  <option value="lessons-learned">1° Project Lessons Learned</option>'
   +'<select>'
   +'<a class="link-home-github" href="https://github.com/RafaelBiatoAzevedo/RafaelBiatoAzevedo.github.io/tree/main/Projects" target="_blank"><img class="link-logo-github" src="./imagens/logo_github.png" alt="logo-gihub"/></a>'
 +'<div/>';
@@ -204,6 +207,12 @@ const selectProject = (evt) => {
   case 'shopping-cart':
     window.location.assign('https://rafaelbiatoazevedo.github.io/Projects/10%C2%B0%20Project%20-%20shopping-cart/');
     break;
+  case 'jest':
+    window.location.assign('https://github.com/RafaelBiatoAzevedo/RafaelBiatoAzevedo.github.io/tree/main/Projects/11%C2%B0%20Project%20-%20jest');
+    break;
+  case 'movie-cards-library':
+  window.location.assign('https://rafaelbiatoazevedo.github.io/movie-cards-library/');
+  break;
   }
 }
 
