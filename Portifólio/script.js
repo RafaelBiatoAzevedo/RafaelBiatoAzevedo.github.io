@@ -230,10 +230,10 @@ const selectProject = (evt) => {
     window.location.assign('https://rafaelbiatoazevedo.github.io/trybe-wallet/');
     break;
   case 'trivia-react-redux':
-    window.location.assign('https://rafaelbiatoazevedo.github.io/trivia-react-redux/');
+    window.location.assign('https://rafaelbiatoazevedo.github.io/trivia-game/');
     break;
   case 'starwars-planets-search':
-    window.location.assign('https://rafaelbiatoazevedo.github.io/starwars-planets-search/');
+    window.location.assign('https://rafaelbiatoazevedo.github.io/planets-starwars/');
     break;
   case 'recipes-app':
     window.location.assign('https://rafaelbiatoazevedo.github.io/recipes-app/');
