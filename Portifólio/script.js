@@ -15,11 +15,17 @@ const home = '<div class="homeHeader-container">'
 +'<div class="container-project-trybe">'
   +'<select id="selectProjects" class="select-projects">'
   +'  <option>Choose project</option>'
-  +'  <option value="pokedex-RTL">15° Project Pokedex (RTL)</option>'
-  +'  <option value="movie-cards-library">12°, 13° e 14° Project Movie Card Library</option>'
-  +'  <option value="jest">11° Project Jest (only code)</option>'
-  +'  <option value="shopping-cart">10° Project Shopping Cart</option>'
-  +'  <option value="zoo-functions">9° Project Zoo Functions (only code)</option>'
+  +'  <option value="recipes-app">21° Project Recipes App</option>'
+  +'  <option value="starwars-planets-search">20° Project Planets StarWars</option>'
+  +'  <option value="trivia-react-redux">19° Project Game Trivia</option>'
+  +'  <option value="trybe-wallet">18° Project Trybe Wallet</option>'
+  +'  <option value="pokedex-RTL">17° Project Pokedex (RTL)</option>'
+  +'  <option value="frontend-online-store">16° Project Online Store</option>'
+  +'  <option value="movie-cards-library">13°, 14° e 15° Project Movie Card Library</option>'
+  +'  <option value="jest">12° Project Jest (only code)</option>'
+  +'  <option value="shopping-cart">11° Project Shopping Cart</option>'
+  +'  <option value="zoo-functions">10° Project Zoo Functions (only code)</option>'
+  +'  <option value="unit-tests">9° Project Unit Tests (only code) </option>'
   +'  <option value="facebook-signup">8° Project Facebook SignUp</option>'
   +'  <option value="mistery-letter">7° Project Mistery Letter</option>'
   +'  <option value="color-guess">6° Project Color Guess</option>'
@@ -125,10 +131,11 @@ const certificates = '<h2>Certificates</h2>'
 const about = '<h2>About me</h2>'
 +'<p class="text-principal">I started studying in the TI area from a very young age.<br>'
 +'In 1995, when I was 9 years old, I started studying computer science,<br>'
-+'At the age of 15 I took a course in maintenance and installation of networks and computers,<br>'
-+'At the age of 19 I studied 4 years of System Analysis at Puc-Campinas,<br>'
-+'I worked 15 years professionally as a manager in the food industry,<br>'
-+'In 2020 I decided to change and work with TI that I really love and I resumed my studies in full stack web development at Trybe.</p>';
++'At the age of 15 I took a course in maintenance and installation of networks and computers.<br>'
++'At the age of 19 I studied 4 years of System Analysis at Puc-Campinas.<br>'
++'I worked 15 years professionally as a manager in the food industry.<br>'
++'In 2020 I decided to change and work with TI that I really love and I resumed my studies in full stack web development at Trybe.<br>'
++'Currently 35 years old I was looking for a job in web development.</p>';
 
 const contacts = '<h2>Contact</h2>'
 +'<p class="text-principal contact">'
@@ -201,6 +208,9 @@ const selectProject = (evt) => {
   case 'facebook-signup':
     window.location.assign('https://rafaelbiatoazevedo.github.io/Projects/8%C2%B0%20Project%20-%20facebook-signup/');
     break;
+  case 'unit-tests':
+  window.location.assign('https://github.com/RafaelBiatoAzevedo/RafaelBiatoAzevedo.github.io/tree/main/Projects/9%C2%B0%20Project%20-%20unit-tests');
+  break; 
   case 'zoo-functions':
     window.location.assign('https://github.com/RafaelBiatoAzevedo/RafaelBiatoAzevedo.github.io/tree/main/Projects/9%C2%B0%20Project%20-%20zoo-functions');
     break;
@@ -211,8 +221,23 @@ const selectProject = (evt) => {
     window.location.assign('https://github.com/RafaelBiatoAzevedo/RafaelBiatoAzevedo.github.io/tree/main/Projects/11%C2%B0%20Project%20-%20jest');
     break;
   case 'movie-cards-library':
-  window.location.assign('https://rafaelbiatoazevedo.github.io/movie-cards-library/');
-  break;
+    window.location.assign('https://rafaelbiatoazevedo.github.io/movie-cards-library/');
+    break;
+  case 'pokedex-RTL':
+    window.location.assign('https://rafaelbiatoazevedo.github.io/pokedex-RTL/');
+    break;
+  case 'trybe-wallet':
+    window.location.assign('https://rafaelbiatoazevedo.github.io/trybe-wallet/');
+    break;
+  case 'trivia-react-redux':
+    window.location.assign('https://rafaelbiatoazevedo.github.io/trivia-react-redux/');
+    break;
+  case 'starwars-planets-search':
+    window.location.assign('https://rafaelbiatoazevedo.github.io/starwars-planets-search/');
+    break;
+  case 'recipes-app':
+    window.location.assign('https://rafaelbiatoazevedo.github.io/recipes-app/');
+    break;
   }
 }
 
