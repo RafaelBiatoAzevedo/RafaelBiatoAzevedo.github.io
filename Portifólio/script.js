@@ -212,13 +212,13 @@ const selectProject = (evt) => {
   window.location.assign('https://github.com/RafaelBiatoAzevedo/RafaelBiatoAzevedo.github.io/tree/main/Projects/9%C2%B0%20Project%20-%20unit-tests');
   break; 
   case 'zoo-functions':
-    window.location.assign('https://github.com/RafaelBiatoAzevedo/RafaelBiatoAzevedo.github.io/tree/main/Projects/9%C2%B0%20Project%20-%20zoo-functions');
+    window.location.assign('https://github.com/RafaelBiatoAzevedo/RafaelBiatoAzevedo.github.io/tree/main/Projects/10%C2%B0%20Project%20-%20zoo-functions');
     break;
   case 'shopping-cart':
-    window.location.assign('https://rafaelbiatoazevedo.github.io/Projects/10%C2%B0%20Project%20-%20shopping-cart/');
+    window.location.assign('https://rafaelbiatoazevedo.github.io/Projects/11%C2%B0%20Project%20-%20shopping-cart/');
     break;
   case 'jest':
-    window.location.assign('https://github.com/RafaelBiatoAzevedo/RafaelBiatoAzevedo.github.io/tree/main/Projects/11%C2%B0%20Project%20-%20jest');
+    window.location.assign('https://github.com/RafaelBiatoAzevedo/RafaelBiatoAzevedo.github.io/tree/main/Projects/12%C2%B0%20Project%20-%20jest');
     break;
   case 'movie-cards-library':
     window.location.assign('https://rafaelbiatoazevedo.github.io/movie-cards-library/');
