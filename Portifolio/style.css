@@ -22,10 +22,6 @@
   padding: 10px;
 }
 
-.image-header:hover {
-  height: 180px;
-}
-
 .logo {
   width: 900px;
 }
@@ -58,8 +54,8 @@
 }
 
 .span-nav:hover {
-  background-color: rgba(204, 200, 200, 0.6);
-  font-weight: bold;
+  background-color: rgb(180, 180, 180);
+  font-weight: bolder;
 }
 
 .div-main {
