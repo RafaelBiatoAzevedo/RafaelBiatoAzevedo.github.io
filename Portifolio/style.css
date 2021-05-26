@@ -17,8 +17,13 @@
 }
 
 .image-header {
-  width: 28%;
-  margin: 10px;
+  cursor: pointer;
+  height: 110px;
+  padding: 10px;
+}
+
+.image-header:hover {
+  height: 180px;
 }
 
 .logo {
@@ -48,11 +53,12 @@
 .span-nav {
   color: black;
   cursor: pointer;
-  margin: 10px 25px;
+  padding: 8px 25px;
   font-size: 15px;
 }
 
 .span-nav:hover {
+  font-size: 20px;
   font-weight: bold;
 }
 
