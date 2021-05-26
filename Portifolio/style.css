@@ -52,6 +52,10 @@
   font-size: 15px;
 }
 
+.span-nav:hover {
+  font-weight: bold;
+}
+
 .div-main {
   display: flex;
   justify-content: space-around;
@@ -128,12 +132,35 @@ li {
   padding: 10px 10px 30px 10px;
 }
 
+.container-logos-home {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.container-logos-tecno {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
 .logoBrothers {
-  width: 70px;
+  width: 80px;
 }
 
 .logoRafaexpress {
-  width: 140px;
+  width: 180px;
+}
+
+.tecnoIcon {
+  width: 30px;
+  margin: 0 3px;
+}
+
+.logo-redux {
+  width: 25px;
 }
 
 .link-logo-github {
@@ -179,16 +206,36 @@ li {
   width: 45px;
 }
 
+.container-certificates {
+  align-items: center;
+  display: flex;
+}
+
 .link-certificate {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   cursor: pointer;
   display: flex;
   margin: 20px 30px;
+  text-decoration: none;
+  width: 300px;
+}
+
+.img-certificate {
+  height: 180px;
+  width: 100%;
+}
+
+.text-certificate {
+  font-size: 12px;
 }
 
 .container-project-trybe {
   align-items: center;
   display: flex;
   justify-content: space-around;
+  margin-left: 70px;
 }
 
 .select-projects {
@@ -196,7 +243,7 @@ li {
   border-radius: 5px;
   font-size: 15px;
   padding: 3px 10px;
-  width: 160px;
+  width: 180px;
 }
 
 .container-footer {

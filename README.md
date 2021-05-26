@@ -4,4 +4,4 @@ Este repositório disponibiliza estes sites para acesso online, através das URL
 
 https://rafaelbiatoazevedo.github.io/SiteBrothers/
 
-https://rafaelbiatoazevedo.github.io/Portif%C3%B3lio/
+https://rafaelbiatoazevedo.github.io/Portifolio/
