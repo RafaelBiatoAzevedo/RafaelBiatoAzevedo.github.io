@@ -17,7 +17,6 @@
 }
 
 .image-header {
-  cursor: pointer;
   height: 110px;
   padding: 10px;
 }
@@ -55,6 +54,7 @@
 
 .span-nav:hover {
   background-color: rgb(180, 180, 180);
+  border-radius: 5px;
   font-weight: bolder;
 }
 
@@ -95,6 +95,10 @@
   justify-content: space-around;
 }
 
+.subtitle-home {
+  color: #696767;
+}
+
 .text-principal {
   line-height: 25px;
   padding: 20px;
@@ -120,6 +124,7 @@ li {
   display: flex;
   padding: 15px 50px;
   justify-content: space-around;
+  margin-top: 20px;
 }
 
 .link {
@@ -130,21 +135,21 @@ li {
 }
 
 .text-linkedin {
-  font-size: 20px;
+  font-size: 15px;
   color: blue;
   font-weight: bold;
   margin-left: 10px;
 }
 
 .text-instagram {
-  font-size: 20px;
+  font-size: 15px;
   color: rgb(252, 61, 92);
   font-weight: bold;
   margin-left: 10px;
 }
 
 .text-github {
-  font-size: 20px;
+  font-size: 15px;
   color: black;
   font-weight: bold;
   margin-left: 4px;
@@ -190,11 +195,11 @@ li {
 }
 
 .link-logo-github {
-  width: 50px;
+  width: 40px;
 }
 
 .link-logo-linkid, .link-logo-insta {
-  width: 40px;
+  width: 30px;
 }
 
 .img-softSkill {
@@ -229,7 +234,7 @@ li {
 
 .contact-icon {
   margin-right: 10px;
-  width: 45px;
+  width: 40px;
 }
 
 .container-certificates {
@@ -266,10 +271,12 @@ li {
 
 .select-projects {
   background-color: white;
+  border-style: none;
   border-radius: 5px;
+  cursor: pointer;
   font-size: 15px;
   padding: 3px 10px;
-  width: 180px;
+  width: 150px;
 }
 
 .container-footer {
