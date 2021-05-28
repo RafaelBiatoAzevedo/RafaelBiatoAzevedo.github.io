@@ -270,12 +270,12 @@ li {
 }
 
 .select-projects {
-  background-color: white;
+  background-color: rgb(224, 220, 220);
   border-style: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 15px;
-  padding: 3px 10px;
+  padding: 5px 10px;
   width: 150px;
 }
 
