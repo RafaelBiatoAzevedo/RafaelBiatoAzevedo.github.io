@@ -58,6 +58,7 @@ body {
 
 .btn {
   border-radius: 5px;
+  cursor: pointer;
   font-size: 15px;
   padding: 3px 8px;
 }
@@ -94,6 +95,7 @@ body {
 }
 
 .img-meme {
+  cursor: pointer;
   height: 80px;
 }
 
