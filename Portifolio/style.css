@@ -131,6 +131,7 @@ li {
 .link {
   align-items: center;
   display: flex;
+  justify-content: center;
   text-decoration: none;
   width: 200px;
 }
@@ -267,7 +268,13 @@ li {
   align-items: center;
   display: flex;
   justify-content: space-around;
-  margin-left: 70px;
+  margin: 20px 50px;
+}
+
+.link-home {
+  align-items: center;
+  display: flex;
+  text-decoration: none;
 }
 
 .select-projects {
@@ -332,6 +339,7 @@ h2 {
 
   .image-header {
     width: 50px;
+    height: auto;
   }
   
   .logo {
@@ -352,8 +360,9 @@ h2 {
   }
   
   .span-nav {
-    margin: 5px;
+    margin: 0;
     font-size: 10px;
+    padding: 5px;
   }
 
   .div-main {
@@ -426,19 +435,19 @@ h2 {
   }
 
   .logoBrothers {
-    width: 50px;
+    width: 45px;
   }
 
   .logoRafaexpress {
-    width: 80px;
+    width: 95px;
   }
 
   .link-logo-github {
-    width: 40px;
+    width: 25px;
   }
   
   .link-logo-linkid, .link-logo-insta {
-    width: 30px;
+    width: 20px;
   }
 
   .img-softSkill {
@@ -466,11 +475,15 @@ h2 {
   .select-projects {
     font-size: 10px;
     padding: 3px 10px;
-    width: 150px;
+    width: 110px;
+  }
+
+  .my-projects {
+    padding: 0 30px;
   }
 
   .container-project-trybe {
-    margin-bottom: 15px;
+    margin: 15px;
   }
 
   .img-pucIcon {
@@ -498,6 +511,26 @@ h2 {
     font-size: 8px;
     text-align: center;
   }
+
+  .container-logos-home {
+    height: 50px;
+  }
+
+  .tecnoIcon {
+    width: 10px;
+  }
+
+  .nameTitle {
+    font-size: 20px;
+  }
+
+  .container-certificates {
+    flex-direction: column;
+  }
+
+  .text-github, .text-instagram, .text-linkedin {
+    font-size: 12px;
+  }
 }
 
 @media screen and (min-width: 601px)  and (max-width: 1200px) {
@@ -507,6 +540,7 @@ h2 {
   }
 
   .image-header {
+    height: auto;
     width: 80px;
   }
   
@@ -520,6 +554,10 @@ h2 {
     margin: 0;
   }
 
+  .nameTitle {
+    font-size: 25px;
+  }
+
   .nav-menu {
     display: flex;
     justify-content: center;
@@ -527,8 +565,8 @@ h2 {
   }
   
   .span-nav {
-    margin: 7px;
-    font-size: 14px;
+    font-size: 12px;
+    padding: 8px;
   }
 
   .div-main {
@@ -568,7 +606,6 @@ h2 {
   }
 
   .text-principal {
-    line-height: 15px;
     font-size: 15px;
     padding: 10px;
   }
@@ -585,7 +622,7 @@ h2 {
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   h4, h3 {
@@ -602,19 +639,19 @@ h2 {
   }
 
   .logoBrothers {
-    width: 70px;
+    width: 60px;
   }
 
   .logoRafaexpress {
-    width: 90px;
+    width: 140px;
   }
 
   .link-logo-github {
-    width: 55px;
+    width: 40px;
   }
   
   .link-logo-linkid, .link-logo-insta {
-    width: 40px;
+    width: 30px;
   }
 
   .img-softSkill {
@@ -637,6 +674,14 @@ h2 {
   
   .contact-icon {
     width: 30px;
+  }
+
+  .container-logos-home {
+    height: 75px;
+  }
+  
+  .container-certificates {
+    flex-direction: column;
   }
 
   .select-projects {
