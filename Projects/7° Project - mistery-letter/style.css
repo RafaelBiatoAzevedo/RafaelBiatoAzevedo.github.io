@@ -52,10 +52,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 650px;
-  height: 420px;
+  width: 550px;
+  height: 350px;
   margin-top: 150px;
-  padding: 25px 5px 5px;
+  padding: 15px;
 }
 
 span {
