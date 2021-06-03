@@ -58,12 +58,14 @@ const home = '<div class="homeHeader-container">'
 +'<div/>';
 
 const formation = '<h2>Formation</h2>'
++'<hr>'
 +'<div class="container-card">'
   +'<img class="img-pucIcon" src="./imagens/pucIcon.svg" alt="pucIcon"/>'
   +'<p class="text-principal">Análise de Sistemas 7° semestre<br>Situation: locked from 2009</p>'
 +'<div>';
 
 const courses = '<h2>Courses</h2>'
++'<hr>'
 +'<div class="courses-container">'
   +'<div class="course">'
     +'<div class="container-icon-courses">'
@@ -140,11 +142,13 @@ const courses = '<h2>Courses</h2>'
 +'</div>';
 
 const experiences = '<h2>Professional experiences</h2>'
++'<hr>'
 +'<div class="container-card">'
   +'<img class="img-pucIcon" src="./imagens/managerIcon.jpeg" alt="managerIcon" />'
   +'<p class="text-principal"><strong>Restaurante Bandeirantes</strong><br>Av. Bandeirantes 1640, Mogi-Guaçu - SP<br>Responsibility: Manager<br>from January/2003 to May/2018</p>'
 +'</div>';
 const certificates = '<h2>Certificates</h2>'
++'<hr>'
 +'<div class="container-certificates">'
   +'<a class="link-certificate" href="./certificates/RafaelModulo1.pdf" target="_blank">'
     +'<img class="img-certificate" src="./imagens/certificateModulo1.jpeg" width="200px" alt="certificate1" />'
@@ -157,6 +161,7 @@ const certificates = '<h2>Certificates</h2>'
 +'</div>';
 
 const about = '<h2>About me</h2>'
++'<hr>'
 +'<p class="text-principal">I started studying in the TI area from a very young age.<br>'
 +'In 1995, when I was 9 years old, I started studying computer science,<br>'
 +'At the age of 15 I took a course in maintenance and installation of networks and computers.<br>'
@@ -166,6 +171,7 @@ const about = '<h2>About me</h2>'
 +'Currently 35 years old I was looking for a job in web development.</p>';
 
 const contacts = '<h2>Contact</h2>'
++'<hr>'
 +'<p class="text-principal contact">'
   +'<img class="contact-icon" src="./imagens/adressIcon.jpeg" alt="adressIcon" /> Rua Cleonice Ap. Cruz Thielle, 350 - Jd. Alvorada<br>Cep: 13841-077, Mogi-Guaçu - SP'
 +'</p>'

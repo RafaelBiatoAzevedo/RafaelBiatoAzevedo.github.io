@@ -242,6 +242,7 @@ li {
 .container-certificates {
   align-items: center;
   display: flex;
+  justify-content: center;
 }
 
 .link-certificate {
@@ -314,6 +315,10 @@ li {
 
 h2 {
   font-size: 20px;
+}
+
+hr {
+  margin-bottom: 20px;
 }
 
 .img-coursesIcon {
