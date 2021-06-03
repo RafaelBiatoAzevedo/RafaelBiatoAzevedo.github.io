@@ -20,45 +20,52 @@
           </section>
           <section class="section-size">
               <label for="board-size">Size Board</label>
-              <input class="input-size" type="number" min="1" max="50" id="board-size" >
-              <button class="button" id="generate-board">Insert</button>
-              <button class="button" id="clear-board">Clear</button>
+              <input class="input-size" type="number" min="5" max="50" id="board-size" placeholder="5">
+              <button class="button" id="generate-board">Create</button>
           </section>
-          <div class="pixel-painel" id="pixel-board">
-            <div class="line-board">
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-            </div>
-            <div class="line-board">
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-            </div>
-            <div class="line-board">
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-            </div>
-            <div class="line-board">
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-            </div>
-            <div class="line-board">
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
+          <section class="section-paint">
+              <button class="button btn-paint btn-selected" id="paint-pixel">Paint</button>
+              <button class="button btn-paint" id="erase-pixel">Erase</button>
+              <span class="line-vertical"></span>
+              <button class="button btn-paint" id="clear-board">Clear</button>
+          </section>
+          <div class="pixel-painel">
+            <div id="pixel-board" class="div-moldura">
+              <div class="line-board">
+                  <div class="pixel"></div>
+                  <div class="pixel"></div>
+                  <div class="pixel"></div>
+                  <div class="pixel"></div>
+                  <div class="pixel"></div>
+              </div>
+              <div class="line-board">
+                  <div class="pixel"></div>
+                  <div class="pixel"></div>
+                  <div class="pixel"></div>
+                  <div class="pixel"></div>
+                  <div class="pixel"></div>
+              </div>
+              <div class="line-board">
+                  <div class="pixel"></div>
+                  <div class="pixel"></div>
+                  <div class="pixel"></div>
+                  <div class="pixel"></div>
+                  <div class="pixel"></div>
+              </div>
+              <div class="line-board">
+                  <div class="pixel"></div>
+                  <div class="pixel"></div>
+                  <div class="pixel"></div>
+                  <div class="pixel"></div>
+                  <div class="pixel"></div>
+              </div>
+              <div class="line-board">
+                  <div class="pixel"></div>
+                  <div class="pixel"></div>
+                  <div class="pixel"></div>
+                  <div class="pixel"></div>
+                  <div class="pixel"></div>
+              </div>
             </div>
           </div>
         </main>

@@ -8,6 +8,7 @@ html {
 }
 
 .title {
+  margin: 30px 0 0;
   font-size: 35px;
   color: hsl(293, 83%, 32%);
 }
@@ -38,11 +39,17 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px;
+  margin: 2px 0;
   font-size: 20px;
 }
 
+.section-paint {
+  display: flex;
+  justify-content: center;
+}
+
 .input-size {
+  border-radius: 5px;
   margin: 7px;
   font-size: 20px
 }
@@ -55,24 +62,43 @@ hr {
   margin-left: 15px;
 }
 
+.btn-paint {
+  margin: 5px 15px;
+}
+
+.btn-selected {
+  background-color: hsl(293, 83%, 32%);
+  color: white;
+}
+
 .pixel-painel {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.div-moldura {
+  border: ridge  10px hsl(293, 83%, 32%);
 }
 
 .line-board {
   display: flex;
 }
 
+.line-vertical {
+  align-self: center;
+  border-left: solid 1px hsl(293, 83%, 32%);
+  height: 30px;
+}
+
 .color {
   border: solid;
   border-width: 1px;
-  cursor: cell;
+  cursor: pointer;
   display: inline-block;
-  height: 40px;
+  height: 35px;
   margin: 0px 5px;
-  width: 40px;
+  width: 35px;
 }
 
 .black {
@@ -126,9 +152,9 @@ hr {
   border-width: 1px;
   cursor: cell;
   display: inline-block;
-  height: 50px;
-  margin: 2px;
-  width: 50px;
+  height: 30px;
+  margin: 1px;
+  width: 30px;
 }
 
 .selected {
